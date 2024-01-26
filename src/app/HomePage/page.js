@@ -1,7 +1,10 @@
 import React from "react";
 import FooterSection from "../components/footer";
 import About from "../components/AboutUs";
+
+import Judges from "../components/judge";
 import Hero from "../components/Hero";
+
 
 const HomePage = () => {
   return (
@@ -21,11 +24,12 @@ const HomePage = () => {
           PaperRoll Section
         </h1>
       </div>
-      <div className="h-48 w-full my-10 shadow-xl bg-[#ffd4d4]  shadow-black">
+      {/*<div className="h-48 w-full my-10 shadow-xl bg-[#ffd4d4]  shadow-black">
         <h1 className="text-4xl text-slate-700 items-center text-center">
           Judges Section
         </h1>
-      </div>
+    </div>*/}
+    <Judges />
       {/* <div className="h-48 w-full my-10 shadow-xl bg-[#ffd4d4]  shadow-black">
         <h1 className="text-4xl text-slate-700 items-center text-center">
           Footer
