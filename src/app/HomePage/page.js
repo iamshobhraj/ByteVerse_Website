@@ -1,5 +1,5 @@
 import React from "react";
-import FooterSection from "../components/footer"
+import FooterSection from "../components/footer";
 import About from "../components/AboutUs";
 import Hero from "../components/Hero";
 
@@ -7,7 +7,7 @@ const HomePage = () => {
   return (
     <main className="bg-[#ffd4d4]">
       <Hero />
-      <div className=" bg-[#4A0000] h-[1500px] md:h-[1000px] p-5">
+      <div className="  h-[1500px] md:h-[1000px] gradient-bg  p-5">
         <About />
       </div>
       {/* <div className="h-48 w-full my-10 shadow-xl bg-[#ffd4d4]  shadow-black">
@@ -32,7 +32,6 @@ const HomePage = () => {
         </h1>
       </div> */}
       <FooterSection />
-
     </main>
   );
 };
