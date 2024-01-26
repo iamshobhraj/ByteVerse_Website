@@ -2,6 +2,46 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+    @font-face {
+        font-family: "Japanese3017";
+        src: url('../../public/fonts/Japanese3017.ttf');
+    }
+    @font-face {
+        font-family: "Lato-Regular";
+        src: url('../../public/fonts/Lato-Regular.ttf');
+    }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  user-select: none;
+}
+
+a:focus {
+  outline: none;
+}
+
+img {
+  pointer-events: none;
+}
+
+a, img, button, input, label, span {
+  -webkit-tap-highlight-color: transparent;
+}
+
 :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
@@ -26,8 +66,9 @@ body {
     rgb(var(--background-start-rgb));
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+.gradient-bg {
+  background: linear-gradient(180deg, #000000 -8.85%, #4A0000 98.67%);
+
+
+  
 }

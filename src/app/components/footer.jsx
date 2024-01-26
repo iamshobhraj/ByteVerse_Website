@@ -16,7 +16,7 @@ const FooterSection=()=>{
     return <div className="h-[140vh] font-[Inter] flex flex-col bg-cover bg-no-repeat " style={{backgroundImage:"url(/byteverse/footer/footerbg.png)"}}>
         <div className="h-[115vh] flex md:justify-end md:items-end md:p-5 lg:pr-36 justify-center items-center">
             <form action="" className=' px-10 md:px-0 flex flex-col gap-2 sm:gap-4 lg:w-[25vw] w-[100%] text-slate-700 lg:text-sm text-[0.8rem] '>
-                <div className="text-white flex lg:text-4xl text-2xl ">CONTACT US </div>
+                <div className="text-white flex lg:text-4xl text-2xl font-japanese ">CONTACT US </div>
                 <div className="flex gap-2 sm:gap-5 ">
                     <input type="text"  placeholder='Your Name' className='py-2 md:pl-5 pl-2  rounded-md md:rounded-lg w-[30%] focus:outline 
                     focus:outline-rose-500
@@ -37,7 +37,7 @@ const FooterSection=()=>{
             <div className="flex lg:justify-end flex-col lg:items-start items-center lg:pl-7 lg:pb-5 lg:my-0 my-10">
                 <div className="flex items-center ">
                     <img src="/byteverse/footer/nitplogo.svg" alt="" className='md:h-16 h-12 '/>
-                    <div className=" lg:w-[18vw] w-[60vw]  ml-5   lg:font-semibold text-[0.8rem]">Student Activity Center(SAC), NIT Patna Ashok Rajpath, Patna, Bihar - 800005</div>
+                    <div className=" lg:w-[18vw] w-[60vw]  ml-5  font- lg:font-semibold text-[0.8rem]">Student Activity Center(SAC), NIT Patna Ashok Rajpath, Patna, Bihar - 800005</div>
                 </div>
                 <div className='flex justify-center gap-10 items-center mt-5'>
                     <img src={insta} className=' h-5 '/>
