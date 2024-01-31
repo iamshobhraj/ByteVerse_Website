@@ -65,3 +65,10 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+
+.gradient-bg {
+  background: linear-gradient(180deg, #000000 -8.85%, #4A0000 98.67%);
+
+
+  
+}
