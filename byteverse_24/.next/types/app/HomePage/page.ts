@@ -1,4 +1,12 @@
+<<<<<<< HEAD
 // File: D:\Byteverse 24\My Fork\ByteVerse_Website\byteverse_24\src\app\HomePage\page.js
+=======
+<<<<<<< HEAD
+// File: D:\Dev\ByteVerse_Website\byteverse_24\src\app\HomePage\page.js
+=======
+// File: D:\Byteverse 24\My Fork\ByteVerse_Website\byteverse_24\src\app\HomePage\page.js
+>>>>>>> c46a980f2e0e2ae853ee0ee988a5b7eaf15a7e3a
+>>>>>>> f495242398dbf51e80df2f9454d938da73e19627
 import * as entry from '../../../../src/app/HomePage/page.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
