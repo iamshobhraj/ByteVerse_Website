@@ -1,4 +1,8 @@
+<<<<<<< HEAD
+// File: D:\Dev\ByteVerse_Website\byteverse_24\src\app\layout.js
+=======
 // File: D:\Byteverse 24\My Fork\ByteVerse_Website\byteverse_24\src\app\layout.js
+>>>>>>> c46a980f2e0e2ae853ee0ee988a5b7eaf15a7e3a
 import * as entry from '../../../src/app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 

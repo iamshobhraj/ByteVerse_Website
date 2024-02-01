@@ -8,9 +8,9 @@ import PaperRoll from "../components/PaperRoll";
 
 const HomePage = () => {
   return (
-    <main className="bg-[#ffd4d4]">
+    <main id="home" className="bg-[#ffd4d4]">
       <Hero />
-      <div className="  h-[1500px] md:h-[1000px] gradient-bg  p-5">
+      <div id="about" className="  h-[1500px] md:h-[1000px] gradient-bg  p-5">
         <About />
       </div>
       {/* <div className="h-48 w-full my-10 shadow-xl bg-[#ffd4d4]  shadow-black">
