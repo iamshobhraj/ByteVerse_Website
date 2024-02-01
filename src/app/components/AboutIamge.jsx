@@ -7,10 +7,10 @@ const AboutIamge = () => {
       <Image
         src="/byteverse/aboutus.png"
         alt="About US Logo"
-       
         width={1050}
         height={192}
         priority={true}
+        zIndex={10}
       />
     </div>
   );
