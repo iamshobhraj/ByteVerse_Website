@@ -4,7 +4,7 @@ import React from "react";
 
 const Card = (props) => {
   return (
-    <div className="bg-[#541E1E]   w-[400px] h-[550px] flex flex-col  p-5   rounded-lg shadow-md md:p-10">
+    <div className="bg-[#541E1E]   w-[80vw] md:w-[35vw]  h-[550px] flex flex-col  p-5   rounded-lg shadow-md md:p-10">
       <div className=" pt-20  sm:pt-20 md:pt-10 ">
         <Image
           className="mx-auto   "
@@ -13,7 +13,7 @@ const Card = (props) => {
           width={props.width}
           height={props.height}
         />
-        <p className=" mt-2 pl-16 pr-16 pt-4  md:pt-8 text-white ">
+        <p className=" mt-2  px-10 pt-4  md:pt-8 text-white text-justify">
           Lorem ipsum dolor sit amying on meaningful content. Lorem ipsum may be
           used as a placeholder before final copy is available. adipiscing elit.
           consectetur adipiscing elit. ... used as a placeh

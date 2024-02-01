@@ -7,7 +7,7 @@ import KnifeImage from "./KnifeImage";
 
 const About = () => {
   return (
-    <div className="flex flex-col  md:justify-start items-center md:m-14  h-screen  ">
+    <div className="flex flex-col  md:justify-start items-center   h-screen  ">
       <div className=" m-10    ">
         <AboutIamge />
       </div>
