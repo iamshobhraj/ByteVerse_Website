@@ -42,10 +42,10 @@ export default function Sidebar({ open, toggle }) {
         <motion.li
           variants={navbarItemVariant}
           className="md:hover:text-white/80 group transition-all cursor-pointer"
-          onClick={toggle}
         >
           <Link
             to="home"
+            onClick={toggle}
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             Home
@@ -54,10 +54,10 @@ export default function Sidebar({ open, toggle }) {
         <motion.li
           variants={navbarItemVariant}
           className="md:hover:text-white/80 group transition-all cursor-pointer"
-          onClick={toggle}
         >
           <Link
             to="about"
+            onClick={toggle}
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             About Us
@@ -66,10 +66,10 @@ export default function Sidebar({ open, toggle }) {
         <motion.li
           variants={navbarItemVariant}
           className="md:hover:text-white/80 group transition-all cursor-pointer"
-          onClick={toggle}
         >
           <Link
-            href="#timeline"
+            to="timeline"
+            onClick={toggle}
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             Timeline
@@ -78,10 +78,10 @@ export default function Sidebar({ open, toggle }) {
         <motion.li
           variants={navbarItemVariant}
           className="md:hover:text-white/80 group transition-all cursor-pointer"
-          onClick={toggle}
         >
           <Link
-            href="#rules"
+            to="rules"
+            onClick={toggle}
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             Rules
@@ -90,10 +90,10 @@ export default function Sidebar({ open, toggle }) {
         <motion.li
           variants={navbarItemVariant}
           className="md:hover:text-white/80 group transition-all cursor-pointer"
-          onClick={toggle}
         >
           <Link
-            href="#sponsors"
+            to="sponsors"
+            onClick={toggle}
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             Sponsors
@@ -102,10 +102,10 @@ export default function Sidebar({ open, toggle }) {
         <motion.li
           variants={navbarItemVariant}
           className="md:hover:text-white/80 group transition-all cursor-pointer"
-          onClick={toggle}
         >
           <Link
             to="contact"
+            onClick={toggle}
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             Contact Us

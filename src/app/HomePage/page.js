@@ -23,8 +23,7 @@ const HomePage = () => {
           Judges Section
         </h1>
     </div>*/}
-      <PaperRoll />
-      <Judges />
+
       <PaperRoll />
       <Judges />
       {/* <div className="h-48 w-full my-10 shadow-xl bg-[#ffd4d4]  shadow-black">

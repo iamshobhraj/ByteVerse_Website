@@ -41,7 +41,7 @@ export default function Navbar() {
         </li>
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
-            href="#timeline"
+            to="timeline"
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             Timeline
@@ -49,7 +49,7 @@ export default function Navbar() {
         </li>
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
-            href="#rules"
+            to="rules"
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             Rules
@@ -57,7 +57,7 @@ export default function Navbar() {
         </li>
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
-            href="#sponsors"
+            to="sponsors"
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             Sponsors

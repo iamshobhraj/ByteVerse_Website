@@ -11,6 +11,12 @@ import Image from "next/image";
 const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
   const toggle = () => {
+    if(!isOpen) {
+      document.body.style.overflow = 'hidden';
+    }
+    else {
+      document.body.style.overflow = 'unset';
+    }
     setIsOpen(!isOpen);
   };
   return (
@@ -18,7 +24,7 @@ const Navigation = () => {
       initial={{ y: -200 }}
       animate={{ y: 0 }}
       transition={{ duration: 0.6, delay: 6 }}
-      className="w-full flex top-0 mx-6 z-50 items-center justify-center fixed">
+      className="w-full flex top-0 mx-6 z-[100] items-center justify-center fixed">
 
       <Sidebar toggle={toggle} open={isOpen}/>
       <Navbar />
