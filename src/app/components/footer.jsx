@@ -1,4 +1,7 @@
+"use client"
+
 import Image from "next/image";
+import { useRef } from 'react';
 import { Montserrat, Inter, Hina_Mincho } from "next/font/google";
 import Link from "next/link";
 let insta = "/byteverse/footer/Instagram.svg";
@@ -12,8 +15,40 @@ let discord = "/byteverse/footer/Discord.svg";
 let byteverse = "/byteverse/footer/byteverse.svg";
 let hackslash = "/byteverse/footer/Hackslash.svg";
 let desco = "/byteverse/footer/Desco.svg";
+import emailjs from '@emailjs/browser';
 
 const FooterSection = () => {
+  
+  const form = useRef();
+
+    const sendEmail = (e) => {
+    e.preventDefault();
+
+    let errors = [];
+    if(!e.target.name.value) {
+      errors.push('Name is required');
+    }
+    if(!e.target.email.value) {
+      errors.push('Email is required');
+    } else if(!/\S+@\S+\.\S+/.test(e.target.email.value)) {
+      errors.push('Invalid email');
+    }
+    if(!e.target.body.value) {
+      errors.push('Message is required');
+    }
+    if(errors.length > 0) {
+      alert(errors);
+      return;
+    }
+
+    emailjs.sendForm('service_4xof41n', 'template_m3gqswk', form.current, 'j4VDfmgF44mtyVqA8')
+      .then(result => {
+        console.log(result);
+      }, error => {
+        console.log(error);  
+      });
+  };
+
   return (
     <div
       id="contact"
@@ -22,7 +57,8 @@ const FooterSection = () => {
     >
       <div className="h-[115vh] flex md:justify-end md:items-end md:p-5 lg:pr-36 justify-center items-center">
         <form
-          action=""
+          onSubmit={sendEmail}
+          ref={form}
           className=" px-10 md:px-0 flex flex-col gap-2 sm:gap-4 lg:w-[25vw] w-[100%] text-slate-700 lg:text-sm text-[0.8rem] "
         >
           <div className="text-white flex lg:text-4xl text-2xl font-japanese ">
@@ -32,6 +68,7 @@ const FooterSection = () => {
             <input
               type="text"
               placeholder="Your Name"
+              name="name"
               className="py-2 md:pl-5 pl-2  rounded-md md:rounded-lg w-[30%] focus:outline 
                     focus:outline-rose-500
                     focus:outline-offset-2 focus:outline-2"
@@ -39,6 +76,7 @@ const FooterSection = () => {
             <input
               type="text"
               placeholder="Your Email"
+              name="email"
               className=" focus:outline-none py-2 pl-5 rounded-md md:rounded-lg focus:outline w-[70%]
                     focus:outline-rose-500
                     focus:outline-offset-2 focus:outline-2"
@@ -50,13 +88,13 @@ const FooterSection = () => {
                     focus:outline-offset-2 focus:outline-2"
             re
             placeholder="Write your message"
+            name="body"
           ></textarea>
           <div className="flex justify-end">
-            <input
+            <button
               type="submit"
-              value="Submit"
               className=" bg-slate-200 w-24 rounded-md md:rounded-lg p-[0.4rem] hover:bg-red-800 hover:text-white text-slate-500"
-            />
+            >submit </button>
           </div>
         </form>
       </div>
