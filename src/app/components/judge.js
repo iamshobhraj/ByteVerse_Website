@@ -5,7 +5,7 @@ import './App.css';
 import judges from './judges.json';
 const Judges = () => {
   return (
-    <main>
+    <section id="sponsors">
       <div
         style={{
           display: 'flex',
@@ -78,8 +78,8 @@ const Judges = () => {
         </div>
       ))}
       </div>
-      
-    </main>
+    </section>
+
   );
 };
 

@@ -7,7 +7,7 @@ import KnifeImage from "./KnifeImage";
 
 const About = () => {
   return (
-    <div className="flex flex-col  md:justify-start items-center   h-screen  ">
+    <section id="about" className="flex flex-col  md:justify-start items-center   h-screen  ">
       <div className=" m-10    ">
         <AboutIamge />
       </div>
@@ -31,7 +31,7 @@ const About = () => {
           <KnifeImage />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 
