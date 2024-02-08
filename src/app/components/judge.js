@@ -1,19 +1,23 @@
 "use client";
 import React from "react";
-import Image from 'next/image';
-import './App.css';
-import judges from './judges.json';
+import Image from "next/image";
+import "./App.css";
+import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { BsTwitterX } from "react-icons/bs";
+
+import judges from "./judges.json";
 const Judges = () => {
   return (
     <section id="sponsors">
       <div
         style={{
-          display: 'flex',
-          justifyContent: 'center',
-          alignItems: 'center',
-          height: '55vh',
-          position: 'relative',
-          background: 'linear-gradient(180deg, rgb(72,0,0) 70%, rgb(114,0,0) 100%)'
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center",
+          height: "55vh",
+          position: "relative",
+          background:
+            "linear-gradient(180deg, rgb(72,0,0) 70%, rgb(114,0,0) 100%)",
         }}
       >
         <Image
@@ -23,7 +27,12 @@ const Judges = () => {
           draggable={false}
           onContextMenu={(e) => e.preventDefault()}
           alt="Knife"
-          style={{ position: 'absolute', zIndex: 1, maxWidth: '100%', height: 'auto' }}
+          style={{
+            position: "absolute",
+            zIndex: 1,
+            maxWidth: "100%",
+            height: "auto",
+          }}
         />
         <Image
           src="/judges/judges.svg"
@@ -33,53 +42,70 @@ const Judges = () => {
           onContextMenu={(e) => e.preventDefault()}
           alt="Judges"
           style={{
-            position: 'absolute',
-            top: '50%',
-            left: '50%',
-            transform: 'translate(-50%, -50%)',
+            position: "absolute",
+            top: "50%",
+            left: "50%",
+            transform: "translate(-50%, -50%)",
             zIndex: 2,
-            maxWidth: '100%',
-            height: 'auto'
+            maxWidth: "100%",
+            height: "auto",
           }}
         />
       </div>
-      <div
-        className="hide-scrollbar"
-        style={{
-            display: 'grid',
-            gridTemplateColumns: 'repeat(4, 1fr)',
-            gap: '1rem',
-            justifyContent: 'center',
-            alignItems: 'center',
-            height: '50vh',
-            position: 'relative',
-            background: 'linear-gradient(180deg, rgb(114,0,0) 0%, rgb(150,0,0) 30%, rgb(172,0,0) 70%, rgb(160,0,0) 100%)',
-            overflow: 'scroll',
-            padding: '1rem'
-          }}  
-      >
-      {judges.map((judge, index) => (
-        <div key={index} className="circle-container">
-          <div className="image-container">
-            <img style={{
-            
-            }}
-            src={`/judges/images/${index + 1}.jpg`} alt={`Judge ${index + 1}`} draggable="false" onContextMenu={(e) => e.preventDefault()} />
-            <div className="social-icons">
-              <a href={judge.linkedin} target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="/byteverse/footer/LinkedIn.svg" alt="LinkedIn" />
-              </a>
-              
-                       <a href={judge.instagram} target="_blank" rel="noopener noreferrer" className="social-icon">
-                <img src="/byteverse/footer/Instagram.svg" alt="Instagram" />
-              </a>
+      <div className="hide-scrollbar">
+        {judges.map((judge, index) => (
+          <div key={index} className="circle-container">
+            <div className="image-container">
+              <img
+                style={{}}
+                src={judge.url}
+                alt={`Judge ${index + 1}`}
+                draggable="false"
+                onContextMenu={(e) => e.preventDefault()}
+              />
+              <div className="social-icons gap-2 ">
+                <div className=" text-white font-bold flex flex-col justify-center items-center  ">
+                  <p className=" text-xs ">{judge.name}</p>
+                  <small>({judge.des})</small>
+                </div>
+                <div className="flex flex-row gap-2 justify-center items-center">
+                  {judge.linkedin && (
+                    <a
+                      href={judge.linkedin}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="z-{2} text-2xl text-white md:text-3xl "
+                    >
+                      <AiFillLinkedin />
+                    </a>
+                  )}
+                  {judge.github && (
+                    <a
+                      href={judge.github}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" z-{2} text-2xl text-white md:text-3xl "
+                    >
+                      <AiFillGithub />
+                    </a>
+                  )}
+                  {judge.twitter && (
+                    <a
+                      href={judge.twitter}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className=" z-{2} text-2xl text-white md:text-3xl "
+                    >
+                      <BsTwitterX />
+                    </a>
+                  )}
+                </div>
               </div>
+            </div>
           </div>
-        </div>
-      ))}
+        ))}
       </div>
     </section>
-
   );
 };
 
