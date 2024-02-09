@@ -47,6 +47,8 @@ const FooterSection = () => {
       }, error => {
         console.log(error);  
       });
+    form.current.reset();
+    alert("Form submitted!");
   };
 
   return (
