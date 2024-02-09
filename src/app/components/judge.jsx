@@ -21,7 +21,7 @@ const Judges = () => {
         }}
       >
         <Image
-          src="/judges/Group 1438.svg"
+          src="/byteverse/emeritus-judges.svg"
           width={1100}
           height={380}
           draggable={false}
@@ -30,23 +30,6 @@ const Judges = () => {
           style={{
             position: "absolute",
             zIndex: 1,
-            maxWidth: "100%",
-            height: "auto",
-          }}
-        />
-        <Image
-          src="/judges/judges.svg"
-          width={300}
-          height={300}
-          draggable={false}
-          onContextMenu={(e) => e.preventDefault()}
-          alt="Judges"
-          style={{
-            position: "absolute",
-            top: "50%",
-            left: "50%",
-            transform: "translate(-50%, -50%)",
-            zIndex: 2,
             maxWidth: "100%",
             height: "auto",
           }}
