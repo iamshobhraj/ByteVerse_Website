@@ -4,8 +4,8 @@ import Image from "next/image";
 import "./App.css";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
-
 import judges from "./judges.json";
+
 const Judges = () => {
   return (
     <section id="sponsors">
@@ -14,7 +14,7 @@ const Judges = () => {
           display: "flex",
           justifyContent: "center",
           alignItems: "center",
-          height: "55vh",
+          height: "35vh",
           position: "relative",
           background:
             "linear-gradient(180deg, rgb(72,0,0) 70%, rgb(114,0,0) 100%)",
@@ -57,14 +57,15 @@ const Judges = () => {
           <div key={index} className="circle-container">
             <div className="image-container">
               <img
-                style={{}}
+                style={{objectFit: "cover"}}
                 src={judge.url}
                 alt={`Judge ${index + 1}`}
                 draggable="false"
+                
                 onContextMenu={(e) => e.preventDefault()}
               />
               <div className="social-icons gap-2 ">
-                <div className=" text-white font-bold flex flex-col justify-center items-center  ">
+                <div className=" text-white font-bold flex flex-col justify-center items-center ">
                   <p className=" text-xs ">{judge.name}</p>
                   <small>({judge.des})</small>
                 </div>

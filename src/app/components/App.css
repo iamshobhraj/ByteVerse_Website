@@ -5,30 +5,34 @@
 .hide-scrollbar {
     scrollbar-width: none;  
     -ms-overflow-style: none;  
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    gap: 1rem;
+    display: flex;
+    height:70vh;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    position: relative;
-    /* background: linear-gradient(180deg, rgb(114,0,0) 0%, rgb(150,0,0) 30%, rgb(172,0,0) 70%, rgb(160,0,0) 100%); */
-    background: linear-gradient(180deg, rgb(60,0,0) 0%, rgb(80,0,0) 30%, rgb(100,0,0) 70%, rgb(90,0,0) 100%);
-
-    
-
-
-
-
-    padding: 1rem;
+    /* grid-template-columns: repeat(6, 1fr); */
+    /* gap: 1rem; */
+    /* justify-content: center;
+    align-items: center; */
+    background: linear-gradient(180deg, rgb(114,0,0) 0%,  rgb(172,0,0) 70%, #9f0b0b 100%);
+    /* background: linear-gradient(180deg, rgb(60,0,0) 0%, rgb(80,0,0) 30%, rgb(100,0,0) 70%, rgb(90,0,0) 100%); */
+    /* padding: 1rem; */
     overflow: scroll;
 }
 
 .circle-container {
+    /* display: flex;
+    justify-content: center; */
+    /* align-items: center; */
+    /* margin-bottom: 1rem; */
+    margin-left: 2rem;
+    margin-right: 2rem;
     position: relative;
-    width: 20vw;
-    /* height: 20vh; */
+    width: 11vw;
+    height: auto;
     border-radius: 50%;
     overflow: hidden;
+    /* background-color: aquamarine; */
 }
 
 
@@ -46,14 +50,18 @@
     .circle-container {
         height: 30vw;
         width: 30vw;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
     }
    
 }
 
 @media (max-width: 400px) {
     .circle-container {
-        height: 40vw;
-        width: 40vw;
+        height: 30vw;
+        width: 30vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
     }
 }
 
