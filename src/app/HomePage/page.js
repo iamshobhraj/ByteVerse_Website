@@ -15,7 +15,13 @@ const HomePage = () => {
       <div id="about" className="  h-[1500px] md:h-[1000px] gradient-bg  p-5">
         <About />
       </div>
-      <PaperRoll />
+
+<div className="pt-4">
+
+<PaperRoll />
+
+</div>
+
       <Judges />
       <Sponsors />
       <FAQ />
