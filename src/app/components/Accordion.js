@@ -1,4 +1,4 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { CiCirclePlus, CiCircleMinus } from "react-icons/ci";
 
 const Accordion = ({ title, answer }) => {
