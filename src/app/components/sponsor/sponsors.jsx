@@ -6,8 +6,7 @@ import slist from "./sponsors.json"
 const Sponsors=()=>{
     return(
         <>
-        {/* {console.log(slist["title-sponsors"])} */}
-            <div className="w-full flex flex-col items-center">
+            <div id="sponsors" className="w-full flex flex-col items-center">
                 <Image src={rightKnife} className="" style={{scale:"80%"}} />
                 <Category title="TITLE SPONSORS" items={slist["title-sponsors"]} />
                 <Category title="ASSOCIATE SPONSORS" items={slist["associate-sponsors"]} />
