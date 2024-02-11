@@ -1,7 +1,7 @@
 {
     "title-sponsors":[
         {
-            "company":"Devfolio",
+            "company":"DEVFOLIO LOGO",
             "url":"/sponsors/titleSponsors/devfolio.webp",
             "link":"https://devfolio.co/",
             "hCheck":true
@@ -13,13 +13,13 @@
             "hCheck":false
         },
         {
-            "company":"Polygon",
+            "company":"POLYGON LOGO",
             "url":"/sponsors/titleSponsors/polygon.webp",
             "link":"https://polygon.technology/",
             "hCheck":true
         },
         {
-            "company":"Ethindia",
+            "company":"ETHINDIA LOGO",
             "url":"/sponsors/titleSponsors/ethindia-logo.png",
             "link":"https://ethindia.co/",
             "hCheck":true
