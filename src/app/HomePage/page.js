@@ -5,6 +5,7 @@ import About from "../components/AboutUs";
 import Judges from "../components/judge";
 import Hero from "../components/Hero";
 import PaperRoll from "../components/PaperRoll";
+import FAQ from "../components/FAQ";
 
 const HomePage = () => {
   return (
@@ -26,6 +27,8 @@ const HomePage = () => {
 
       <PaperRoll />
       <Judges />
+
+      <FAQ />
       {/* <div className="h-48 w-full my-10 shadow-xl bg-[#ffd4d4]  shadow-black">
         <h1 className="text-4xl text-slate-700 items-center text-center">
           Footer
