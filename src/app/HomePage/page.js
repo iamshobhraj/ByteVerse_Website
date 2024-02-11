@@ -5,6 +5,7 @@ import About from "../components/AboutUs";
 import Judges from "../components/judge";
 import Hero from "../components/Hero";
 import PaperRoll from "../components/PaperRoll";
+import Sponsors from "../components/sponsor/sponsers";
 import FAQ from "../components/FAQ";
 
 const HomePage = () => {
@@ -34,6 +35,7 @@ const HomePage = () => {
           Footer
         </h1>
       </div> */}
+      <Sponsors />
       <FooterSection />
     </main>
   );
