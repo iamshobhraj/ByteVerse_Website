@@ -112,7 +112,7 @@
   /* for sponserCard */
   .onhoverimg:hover{
     /* background-color: #9f0b0b; */
-    transform: scale(1.08);
+    transform: scale(1.1);
     /* filter:brightness(85%) */
   }
   .onhoverimg{
