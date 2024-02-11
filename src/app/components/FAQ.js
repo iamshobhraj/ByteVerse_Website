@@ -53,7 +53,7 @@ const FAQ = () => {
             consectetur tenetur.
           </p>
         </div>
-        <div className="p-4 w-[400px]  rounded-lg">
+        <div className="p-4 sm:w-full md:w-[400px] rounded-lg">
           {faqs.map((faq) => (
             <Accordion key={faq.id} title={faq.query} answer={faq.ans} />
           ))}
