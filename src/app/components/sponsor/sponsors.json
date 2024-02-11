@@ -1,9 +1,9 @@
 {
     "title-sponsors":[
         {
-            "company":"POSTMAN",
-            "url":"/sponsors/titleSponsors/postman.png",
-            "link":"https://www.postman.com/",
+            "company":"DEVFOLIO LOGO",
+            "url":"/sponsors/titleSponsors/devfolio.webp",
+            "link":"https://devfolio.co/",
             "hCheck":true
         },
         {
@@ -11,25 +11,25 @@
             "url":"/sponsors/titleSponsors/incubationCentre.webp",
             "link":"https://www.linkedin.com/company/icnitp/?originalSubdomain=in",
             "hCheck":false
+        },
+        {
+            "company":"POLYGON LOGO",
+            "url":"/sponsors/titleSponsors/polygon.webp",
+            "link":"https://polygon.technology/",
+            "hCheck":true
+        },
+        {
+            "company":"ETHINDIA LOGO",
+            "url":"/sponsors/titleSponsors/ethindia-logo.png",
+            "link":"https://ethindia.co/",
+            "hCheck":true
         }
     ],
     "associate-sponsors":[
         {
-            "company":"DEVFOLIO",
-            "url":"/sponsors/associateSponsors/devfolio.webp",
-            "link":"https://devfolio.co/",
-            "hCheck":true
-        },
-        {
             "company":"FILECOIN",
             "url":"/sponsors/associateSponsors/filecoin.webp",
             "link":"https://filecoin.io/",
-            "hCheck":true
-        },
-        {
-            "company":"POLYGON",
-            "url":"/sponsors/associateSponsors/polygon.webp",
-            "link":"https://polygon.technology/",
             "hCheck":true
         },
         {
