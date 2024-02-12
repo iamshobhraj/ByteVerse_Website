@@ -88,7 +88,6 @@ const FooterSection = () => {
             className="rounded-md md:rounded-lg py-2 pl-5 h-[10vh] lg:h-[20vh] resize-none   focus:outline-none focus:outline 
                     focus:outline-rose-500
                     focus:outline-offset-2 focus:outline-2"
-            re
             placeholder="Write your message"
             name="body"
           ></textarea>
