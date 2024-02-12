@@ -5,12 +5,12 @@ const AboutIamge = () => {
   return (
     <div>
       <Image
-        src="/byteverse/aboutus.png"
+        src="/byteverse/AboutUs.png"
         alt="About US Logo"
         width={1050}
         height={192}
         priority={true}
-        zIndex={10}
+        zindex={10}
       />
     </div>
   );
