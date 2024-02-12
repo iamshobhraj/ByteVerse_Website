@@ -32,12 +32,12 @@ export default function Sidebar({ open, toggle }) {
       initial={{ x: -750 }}
       animate={{ x: open ? 0 : -750 }}
       transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
-      className="md:hidden flex w-[101vw] h-screen bg-black absolute top-0 left-0 p-36 font-japanese text-lg whitespace-nowrap"
+      className="md:hidden flex w-[80vw] h-screen bg-black absolute top-0 left-0 p-20 pt-28 font-japanese text-xl  whitespace-nowrap" style={{zIndex:"200"}}
     >
       <motion.ul
         variants={frameVariants}
         animate={open ? "visible" : "hidden"}
-        className="flex flex-col h-full w-full text-white justify-between items-center"
+        className="flex flex-col h-full w-full text-white gap-7 justify-start items-center"
       >
         <motion.li
           variants={navbarItemVariant}
