@@ -28,21 +28,41 @@ const Countdown = () => {
 
   return (
     <div className="flex justify-center mt-4">
-      <div className="flex flex-col items-center mx-3 p-4 rounded-lg bg-[#500d0dc3] border border-white">
-        <span className="text-4xl font-bold" suppressHydrationWarning>{timeLeft.days}</span>
-        <span className="text-lg">Days</span>
+      <div className="flex flex-col items-center mx-1 md:mx-3 p-2 md:p-4 rounded-lg bg-[#500d0dc3] border border-white  shadow-lg md:shadow-xl shadow-[#2c1313]">
+        <span
+          className=" text-2xl md:text-4xl font-bold"
+          suppressHydrationWarning
+        >
+          {timeLeft.days}
+        </span>
+        <span className="text-base md:text-lg">Days</span>
       </div>
-      <div className="flex flex-col items-center mx-3 p-4 rounded-lg bg-[#500d0dc3] border border-white">
-        <span className="text-4xl font-bold" suppressHydrationWarning>{timeLeft.hours}</span>
-        <span className="text-lg">Hours</span>
+      <div className="flex flex-col items-center mx-1 md:mx-3 p-2 md:p-4 rounded-lg bg-[#500d0dc3] border border-white  shadow-lg md:shadow-xl shadow-[#2c1313]">
+        <span
+          className="text-2xl md:text-4xl font-bold"
+          suppressHydrationWarning
+        >
+          {timeLeft.hours}
+        </span>
+        <span className="text-base md:text-lg">Hours</span>
       </div>
-      <div className="flex flex-col items-center mx-3 p-4 rounded-lg bg-[#500d0dc3] border border-white">
-        <span className="text-4xl font-bold" suppressHydrationWarning>{timeLeft.minutes}</span>
-        <span className="text-lg">Minutes</span>
+      <div className="flex flex-col items-center mx-1 md:mx-3 p-2 md:p-4 rounded-lg bg-[#500d0dc3] border border-white shadow-lg md:shadow-xl shadow-[#2c1313]">
+        <span
+          className="text-2xl md:text-4xl font-bold"
+          suppressHydrationWarning
+        >
+          {timeLeft.minutes}
+        </span>
+        <span className="text-base md:text-lg">Minutes</span>
       </div>
-      <div className="flex flex-col items-center mx-3 p-4 rounded-lg bg-[#500d0dc3] border border-white">
-        <span className="text-4xl font-bold" suppressHydrationWarning>{timeLeft.seconds}</span>
-        <span className="text-lg">Seconds</span>
+      <div className="flex flex-col items-center mx-1 md:mx-3 p-2 md:p-4 rounded-lg bg-[#500d0dc3] border border-white  shadow-lg md:shadow-xl shadow-[#2c1313]">
+        <span
+          className="text-2xl md:text-4xl font-bold"
+          suppressHydrationWarning
+        >
+          {timeLeft.seconds}
+        </span>
+        <span className="text-base md:text-lg">Seconds</span>
       </div>
     </div>
   );

@@ -30,7 +30,7 @@ export default function Body() {
         <a
           href="path to the file"
           download
-          className="p-3 text-black font-semibold font-japanese text-2xl"
+          className="p-3 text-black font-semibold font-japanese text-xl md:text-2xl"
           style={{
             backgroundImage: `url(${PaperRoll.src})`,
             width: "fit",
