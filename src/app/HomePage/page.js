@@ -17,8 +17,7 @@ const HomePage = () => {
         <About />
       </div>
 
-<PaperRoll />
-
+      <PaperRoll />
 
       <Judges />
       <Sponsors />
