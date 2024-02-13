@@ -7,6 +7,7 @@ import Hero from "../components/Hero";
 import PaperRoll from "../components/PaperRoll";
 import Sponsors from "../components/sponsor/sponsors";
 import FAQ from "../components/FAQ";
+import Teams from "../components/teams";
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
 
       <Judges />
       <Sponsors />
+      <Teams />
       <FAQ />
       <FooterSection />
     </main>
