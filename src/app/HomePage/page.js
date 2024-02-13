@@ -10,7 +10,7 @@ import FAQ from "../components/FAQ";
 
 const HomePage = () => {
   return (
-    <main id="home" className="bg-[#720D0D]">
+    <main id="home" className="bg-[#720D0D]" >
       <Hero />
       <div id="about" className="  h-[1500px] md:h-[1000px] gradient-bg  p-5">
         <About />
