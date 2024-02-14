@@ -12,22 +12,15 @@ export default function Body() {
       transition={{ duration: 0.8, delay: 4, type: "spring", bounce: 0.17 }}
       className="flex flex-col gap-6 z-40 xl:w-3/4 w-4/5 lg:text-lg text-sm font-lato mt-3"
     >
-      {/* <p className="text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam aliquet
-        gravida mi, sed bibendum diam fermentum a. Proin commodo enim sed augue
-        rutrum imperdiet. Aliquam quis aliquam mi. Quisque vehicula porta
-        bibendum. Nam vestibulum egestas orci, sit amet semper arcu imperdiet
-        nec. Pellentesque facilisis justo vitae dui congue congue.
-      </p> */}
       <div className="flex flex-col gap-6 items-center justify-center">
-        {/* <div
+        <CountdownUI />
+        <div
           className="apply-button"
           data-hackathon-slug="byteversenitp"
-          data-button-theme="light"
+          data-button-theme="dark"
           style={{ height: "44px", width: "312px" }}
-        ></div> */}
-        <CountdownUI />
-        <a
+        ></div>
+        {/* <a
           href="path to the file"
           download
           className="p-3 text-black font-semibold font-japanese text-xl md:text-2xl"
@@ -41,7 +34,7 @@ export default function Body() {
           }}
         >
           RULEBOOK
-        </a>
+        </a> */}
       </div>
     </motion.div>
   );
