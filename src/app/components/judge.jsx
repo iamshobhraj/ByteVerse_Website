@@ -49,6 +49,7 @@ const Judges = () => {
         plugins={[
           Autoplay({
             duration:2000,
+            stopOnInteraction: false,
           }),
         ]}
         opts={{
