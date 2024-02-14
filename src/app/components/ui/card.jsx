@@ -62,7 +62,7 @@ const Tabs = ({handlenav}) => {
             handlenav(e.target.textContent)
             setActiveTab(e.target.textContent)
           }
-        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1 text-white hover:bg-[#C89E6D] ${activeTab == "Leads" ? "bg-[#C89E6D] text-gray-800" : " "} focus:text-gray-800 transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
+        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1  hover:bg-[#C89E6D] ${activeTab == "Leads" ? "bg-[#C89E6D] text-gray-800" : "text-white"}  transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
             Leads
           </button>
 
@@ -70,7 +70,7 @@ const Tabs = ({handlenav}) => {
             handlenav(e.target.textContent)
             setActiveTab(e.target.textContent)
           }
-        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1 text-white hover:bg-[#C89E6D] ${activeTab == "Web" ? "bg-[#C89E6D] text-gray-800" : " "} focus:text-gray-800 transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
+        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1  hover:bg-[#C89E6D] ${activeTab == "Web" ? "bg-[#C89E6D] text-gray-800" : "text-white"} transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
             Web
           </button>
 
@@ -78,7 +78,7 @@ const Tabs = ({handlenav}) => {
             handlenav(e.target.textContent)
             setActiveTab(e.target.textContent)
           }
-        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1 text-white hover:bg-[#C89E6D] ${activeTab == "Sponsorship" ? "bg-[#C89E6D] text-gray-800" : " "} focus:text-gray-800 transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
+        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1  hover:bg-[#C89E6D] ${activeTab == "Sponsorship" ? "bg-[#C89E6D] text-gray-800" : "text-white"}  transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
             Sponsorship
           </button>
 
@@ -86,7 +86,7 @@ const Tabs = ({handlenav}) => {
             handlenav(e.target.textContent)
             setActiveTab(e.target.textContent)
           }
-        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1 text-white hover:bg-[#C89E6D] ${activeTab == "Design" ? "bg-[#C89E6D] text-gray-800" : " "} focus:text-gray-800 transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
+        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1  hover:bg-[#C89E6D] ${activeTab == "Design" ? "bg-[#C89E6D] text-gray-800" : "text-white"}  transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
             Design
           </button>
 
@@ -94,7 +94,7 @@ const Tabs = ({handlenav}) => {
             handlenav(e.target.textContent)
             setActiveTab(e.target.textContent)
           }
-        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1 text-white hover:bg-[#C89E6D] ${activeTab == "Management" ? "bg-[#C89E6D] text-gray-800" : " "} focus:text-gray-800 transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
+        } className={`shrink-0 font-lato font-bold md:text-xl rounded-lg p-1  hover:bg-[#C89E6D] ${activeTab == "Management" ? "bg-[#C89E6D] text-gray-800" : "text-white"}  transition duration-200 hover:text-gray-800 dark:text-gray-400 dark:hover:bg-gray-900 dark:hover:text-gray-200`}>
             Management
           </button>
         </nav>

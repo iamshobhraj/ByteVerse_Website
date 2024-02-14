@@ -126,3 +126,10 @@
   background-size: cover;
   background-repeat: no-repeat;
 }
+.team-grad{
+  background:linear-gradient(180deg, #5d0101 0%, #000000 50% ,#170303 75% ,#200000 100%);
+  
+}
+.faq-grad{
+  background:linear-gradient();
+}
