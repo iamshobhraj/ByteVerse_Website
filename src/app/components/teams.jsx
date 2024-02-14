@@ -38,7 +38,7 @@ export default function Teams() {
 
 
   return (
-    <div className="flex flex-col items-center h-fit gap-6">
+    <div className="flex flex-col items-center h-fit gap-6 team-grad pb-20 md:pt-0 pt-20">
       <Image src={teamKnife} className="" style={{ scale: "80%" }} />
       <Tabs handlenav={handlenav} />
       <Carousel

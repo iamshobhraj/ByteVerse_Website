@@ -33,7 +33,7 @@ const FAQ = () => {
       className="relative min-h-screen flex justify-center items-center"
       style={{
         background:
-          "linear-gradient(180deg, #200000 0%, #4a0000 50% , #730d0d 100%)",
+        "linear-gradient(180deg, #200000 0%, #4a0000 50% , #730d0d 100%)",
         // background:
         //   "linear-gradient(180deg, rgb(114,0,0) 0%,  rgb(172,0,0) 70%, #9f0b0b 100%)",
       }}
