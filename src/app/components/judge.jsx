@@ -16,7 +16,7 @@ import {
 import judges from "./judges.json";
 const Judges = () => {
   return (
-    <section id="sponsors" className="flex flex-col">
+    <section id="judges" className="flex flex-col">
       <div
         style={{
           display: "flex",
@@ -49,6 +49,7 @@ const Judges = () => {
         plugins={[
           Autoplay({
             duration:2000,
+            stopOnInteraction: false,
           }),
         ]}
         opts={{
