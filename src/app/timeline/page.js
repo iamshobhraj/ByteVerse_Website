@@ -2,13 +2,13 @@ import React from "react";
 import FooterSection from "../components/footer";
 import TimelineHero from "../components/TimelineHero";
 import Schedule from "../components/Schedule";
-import Countdowntimel from "../components/Cuntdown-timel"
+import CountdownUI from "../components/CountdownUI"
 
 export default function Home() {
   return (
     <main>
       <TimelineHero />
-      <Countdowntimel />
+      <CountdownUI />
       <Schedule />
       <FooterSection />
     </main>

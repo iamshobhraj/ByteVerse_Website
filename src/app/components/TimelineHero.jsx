@@ -45,7 +45,7 @@ export default function TimelineHero() {
         <motion.div
             initial={{ y: -800 }}
             animate={{ y: 0 }}
-            transition={{ duration: 1, ease: "easeOut", delay: 7 }}
+            transition={{ duration: 1, ease: "easeOut", delay: 3 }}
             className="absolute bg-sun-gradient-radial rounded-full md:-mt-16 -mt-36 lg:p-20 md:p-10 p-0">
             <Image
                 alt="sun"
@@ -56,7 +56,7 @@ export default function TimelineHero() {
         <motion.h1
             initial={{ scale: 1.4 }}
             animate={{ scale: 1 }}
-            transition={{ duration: 0.4, type: "spring", delay: 4 }}
+            transition={{ duration: 0.4, type: "spring", delay: 2 }}
             className='uppercase font-japanese absolute lg:text-8xl text-6xl md:mb-12 mb-32'>
                 <motion.div 
                     animate={{ rotate: [0, -10, 0, 10, 0, 0, 0, 0, 10, 0, -10, 0] }}
@@ -66,7 +66,7 @@ export default function TimelineHero() {
             </motion.h1>
         <motion.div
             initial={{ y: 800, opacity: 0 }}
-            animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, delay: 5, type: "spring" }}>
+            animate={{ y: 0, opacity: 1 }} transition={{ duration: 1, delay: 4, type: "spring" }}>
             <Image alt="spike" src={spear} className='lg:scale-[0.8] scale-[0.7] lg:translate-y-1/2 translate-y-2/3 md:opacity-100 opacity-0'/>
         </motion.div>
       </div>
