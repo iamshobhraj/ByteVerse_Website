@@ -25,7 +25,7 @@ const Judges = () => {
           height: "55vh",
           position: "relative",
           background:
-            "linear-gradient(180deg, rgb(72,0,0) 70%, rgb(114,0,0) 100%)",
+            "linear-gradient(180deg, rgb(72,0,0) 70%, #4A0000 100%)",
         }}
       >
         <Image
@@ -39,9 +39,11 @@ const Judges = () => {
             zIndex: 1,
             maxWidth: "90%",
             height: "auto",
+            zIndex:"10"
           }}
         />
       </div>
+      <div className="bg-[#4A0000] flex flex-col">
       <Carousel
       type="judge"
         plugins={[
@@ -119,6 +121,7 @@ const Judges = () => {
         <CarouselPrevious variant="outline"/>
   <CarouselNext variant="outline" />
       </Carousel>
+      </div>
     </section>
   );
 };
