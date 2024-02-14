@@ -10,6 +10,7 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 import teamKnife from "@/../public/byteverse/team-sword.svg";
+
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
 import teams from "./teams.json"

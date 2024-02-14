@@ -4,6 +4,7 @@ import rightKnife from "@/../public/byteverse/judgesKnife.svg";
 import Category from "./category";
 import slist from "./sponsors.json"
 import bg from "@/../public/byteverse/bgsponsor.svg"
+
 const Sponsors=()=>{
     return(
         <>
