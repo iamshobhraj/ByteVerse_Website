@@ -37,7 +37,7 @@ const Judges = () => {
           style={{
             position: "absolute",
             zIndex: 1,
-            maxWidth: "100%",
+            maxWidth: "90%",
             height: "auto",
             zIndex:"10"
           }}
@@ -45,6 +45,7 @@ const Judges = () => {
       </div>
       <div className="bg-[#4A0000] flex flex-col">
       <Carousel
+      type="judge"
         plugins={[
           Autoplay({
             duration:2000,
@@ -54,7 +55,7 @@ const Judges = () => {
           align: "start",
           loop: true,
         }}
-        className="w-5/6 self-center h-full z-10"
+        className="w-4/5 sm:w-5/6 self-center h-full"
       >
         <CarouselContent className="w-full h-full" >
           {judges.map((judge, index) => (
@@ -63,7 +64,7 @@ const Judges = () => {
               className="basis-1/2 md:basis-1/4 lg:basis-1/4 w-full h-full"
             >
               <div className="w-full h-full">
-                <Card className="w-full h-full">
+                <Card className="w-full h-full rounded-b-xl">
                   <CardContent className="flex items-center justify-center md:w-full w-full h-96 flex-col">
                     <div className="w-full md:h-1/2 h-1/3 overflow-hidden">
                       <img
@@ -117,8 +118,8 @@ const Judges = () => {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious />
-  <CarouselNext />
+        <CarouselPrevious variant="outline"/>
+  <CarouselNext variant="outline" />
       </Carousel>
       </div>
     </section>
