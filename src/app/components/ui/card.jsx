@@ -53,7 +53,7 @@ const CardFooter = React.forwardRef(({ className, ...props }, ref) => (
 CardFooter.displayName = "CardFooter";
 
 const Tabs = ({handlenav}) => {
-  const [activeTab, setActiveTab] = React.useState(null)
+  const [activeTab, setActiveTab] = React.useState("Leads")
   return (
     <div className="mb-12 w-1/4 self-start md:self-center md:w-1/3">
       <div className="block cursor-pointer">
