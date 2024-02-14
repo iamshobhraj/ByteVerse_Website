@@ -9,7 +9,7 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "./ui/carousel";
-import rightKnife from "@/../public/byteverse/judgesKnife.svg";
+import teamKnife from "@/../public/byteverse/team-sword.svg";
 import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
 import teams from "./teams.json"
@@ -39,7 +39,7 @@ export default function Teams() {
 
   return (
     <div className="flex flex-col items-center h-fit gap-6">
-      <Image src={rightKnife} className="" style={{ scale: "80%" }} />
+      <Image src={teamKnife} className="" style={{ scale: "80%" }} />
       <Tabs handlenav={handlenav} />
       <Carousel
         type="teams"
