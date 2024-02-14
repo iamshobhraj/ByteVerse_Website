@@ -14,6 +14,7 @@ import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
 import teams from "./teams.json"
 import judges from "./judges.json";
+import Autoplay from "embla-carousel-autoplay"
 
 export default function Teams() {
 
@@ -43,6 +44,12 @@ export default function Teams() {
       <Tabs handlenav={handlenav} />
       <Carousel
         type="teams"
+        plugins={[
+          Autoplay({
+            duration:1600,
+            stopOnInteraction: false,
+          }),
+        ]}
         opts={{
           align: "start",
           loop: true,
