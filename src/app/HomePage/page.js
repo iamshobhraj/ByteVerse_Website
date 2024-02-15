@@ -9,6 +9,7 @@ import Sponsors from "../components/sponsor/sponsors";
 import FAQ from "../components/FAQ";
 import Teams from "../components/teams";
 import AboutUs from "../components/AboutHsNew";
+import Prizes from "../components/Prizes";
 
 const HomePage = () => {
   return (
@@ -22,6 +23,7 @@ const HomePage = () => {
 
       <Judges />
       <Sponsors />
+      <Prizes />
       <Teams />
       <FAQ />
       <FooterSection />
