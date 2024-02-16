@@ -26,7 +26,7 @@ const Category=(props)=>{
             <img src="/sponsers/titleSponsers/postman.png" alt="sponser" className="lg:h-[8rem] h-[4rem] w-auto" />
         </div>
     </div> */}
-        <div className="flex flex-wrap justify-center align-center md:gap-[4rem] gap-5 py-5 md:px-10 px-5">
+        <div className="flex flex-wrap justify-center align-center md:gap-[4rem] gap-5 py-5 md:px-10 px-5 z-10">
             {companies.map((e,i)=><SponserCard {...e} key={i} />)}
             </div>
             
