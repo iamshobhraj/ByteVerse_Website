@@ -8,19 +8,22 @@ import PaperRoll from "../components/PaperRoll";
 import Sponsors from "../components/sponsor/sponsors";
 import FAQ from "../components/FAQ";
 import Teams from "../components/teams";
+import AboutUs from "../components/AboutHsNew";
+import Prizes from "../components/Prizes";
 
 const HomePage = () => {
   return (
-    <main id="home" className="bg-[#720D0D]" >
+    <main id="home" className="bg-[#720D0D]">
       <Hero />
       <div id="about" className="  h-[1500px] md:h-[1000px] gradient-bg  p-5">
-        <About />
+        <AboutUs />
       </div>
 
       <PaperRoll />
 
       <Judges />
       <Sponsors />
+      <Prizes />
       <Teams />
       <FAQ />
       <FooterSection />

@@ -32,7 +32,8 @@ export default function HomeSidebar({ open, toggle }) {
       initial={{ x: -750 }}
       animate={{ x: open ? 0 : -750 }}
       transition={{ duration: 0.4, ease: "easeOut", delay: 0.2 }}
-      className="md:hidden flex w-[80vw] h-screen bg-black absolute top-0 left-0 p-20 pt-28 font-japanese text-xl  whitespace-nowrap" style={{zIndex:"200"}}
+      className="md:hidden flex w-[80vw] h-[100%] bg-black absolute top-0 left-0 p-20 pt-28 font-japanese text-xl  whitespace-nowrap"
+      style={{ zIndex: "200" }}
     >
       <motion.ul
         variants={frameVariants}
