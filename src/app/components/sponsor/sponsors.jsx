@@ -11,7 +11,7 @@ const Sponsors = () => {
       <div className="relative">
         <Image
           src={bg}
-          className="absolute lg:top-[-32rem] lg:right-[9.5rem] top-[-1rem] right-[3rem] lg:scale-[1.2] scale-[1.27] "
+          className="absolute lg:top-[-15rem]  top-[0rem] right-[3rem]  scale-[1.21] lg:scale-[1.06] w-[100vw]"
           style={{ zIndex: "0" }}
         ></Image>
         <div
