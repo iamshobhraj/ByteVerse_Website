@@ -10,12 +10,13 @@ import FAQ from "../components/FAQ";
 import Teams from "../components/teams";
 import AboutUs from "../components/AboutHsNew";
 import Prizes from "../components/Prizes";
+import Archive from "../components/archive";
 
 const HomePage = () => {
   return (
     <main id="home" className="bg-[#720D0D]">
       <Hero />
-      <div id="about" className="  h-[1500px] md:h-[1000px] gradient-bg  p-5">
+      <div id="about" className="  h-[2500px] md:h-[1400px] gradient-bg  p-4">
         <AboutUs />
       </div>
 
