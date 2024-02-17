@@ -67,7 +67,7 @@ const About = (props) => {
         <div className="mt-4"></div>
         <div className="bg-[#541E1E] w-10/10 md:w-3/5 lg:w-2/5 h-9/10 flex flex-col rounded-lg shadow-md md:p-10">
           <div className="flex flex-col items-center pt-10 sm:pt-10">
-            <div className=" flex flex-col items-center">
+            <div className=" flex flex-col items-center pb-4">
               <Image
                 className="object-contain mt-8"
                 src={`/byteverse/desco.png`}
