@@ -64,7 +64,7 @@ const Tabs = ({ handlenav }) => {
   const list = ["Leads", "Web", "Sponsorship", "Design", "Management"];
   return (
     <>
-      <div className="md:hidden flex w-full p-6">
+      <div className="md:hidden flex w-full p-6 items-center justify-center">
         <Carousel
           opts={{
             align: "start",
