@@ -50,7 +50,7 @@ const Archive = () => {
       {/*  */}
       <div className="m-2 flex flex-col md:flex-row p-2 justify-evenly w-full gap-12 lg:pt-6 md:px-10 lg:px-36">
         <div className="md:w-5/12 bg-[#70363666] rounded-2xl px-3 text-center py-4 text-sm md:px-5 md:pr-12 md:py-6 md:text-lg lg:px-10 lg:pr-20 lg:py-8 lg:text-2xl shadow-lg shadow-[#8484843c] text-opacity-90 font-thin text-slate-100 h-[10rem] md:h-[15.5rem] lg:h-[20rem] w-[95%] mx-auto overflow-scroll overflow-x-hidden hide-scroll">
-          <b>ByteVerse 2.0: Forging the Odyssey of Development </b>
+          <b>ByteVerse 6.0: Forging the Odyssey of Development </b>
           <br /> Prepare to immerse yourself in 36 hours of unparalleled coding
           brilliance at ByteVerse 2.0! Dive into a whirlwind of brainstorming,
           problem-solving, and intense coding sessions meticulously crafted to
