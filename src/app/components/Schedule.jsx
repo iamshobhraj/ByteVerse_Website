@@ -2,11 +2,13 @@ import Image from "next/image";
 
 import timeline from "@/../public/byteverse/timeline.svg";
 import zen from "@/../public/byteverse/zen.svg";
+import CountdownUI from "./countdownUI";
 
 const Schedule = () => {
   return (
-    <section id="schedule" className="flex flex-col items-center justify-start w-full h-max sm:h-[200vh] lg:h-[350vh] relative py-36" style={{background: "linear-gradient(to bottom, #000000 0%, #570d01 40%,#570d01 55%, #080808 58%, #570d01 85%, #730d0d 100%"}}>
-        <h2 className="uppercase font-japanese md:text-7xl text-5xl">Schedule</h2>
+    <section id="schedule" className="flex flex-col items-center justify-start w-full h-max sm:h-[200vh] lg:h-[350vh] relative pb-36 pt-24" style={{background: "linear-gradient(to bottom, #000000 0%, #570d01 40%,#570d01 55%, #080808 58%, #570d01 85%, #730d0d 100%"}}>
+        <CountdownUI />
+        <h2 className="uppercase font-japanese md:text-7xl mt-16 text-5xl">Schedule</h2>
         <Image
             alt="timeline"
             src={timeline}
