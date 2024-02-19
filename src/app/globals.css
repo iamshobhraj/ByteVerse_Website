@@ -141,9 +141,10 @@ body {
 }
 
 .gradient-bg {
-  background: linear-gradient(180deg, #000000 -8.85%, #4A0000 98.67%);
+  background: linear-gradient(180deg, #000000 -8.85%, #4A0000 98.67%);  
+}
 
-
-  
+.info-byte{
+  ::-webkit-scrollbar {display:none;}
 }
 
