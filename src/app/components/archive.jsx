@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Images from "./archiveImage";
+import "./App.css";
 
 const Archive = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -48,11 +49,20 @@ const Archive = () => {
       {/*  */}
       {/*  */}
       <div className="m-2 flex flex-col md:flex-row p-2 justify-evenly w-full gap-12 lg:pt-6 md:px-10 lg:px-36">
-        <div className="md:w-5/12 bg-[#70363666] rounded-2xl px-3 text-center py-4 text-sm md:px-5 md:pr-12 md:py-6 md:text-lg lg:px-8 lg:pr-20 lg:py-8 lg:text-2xl shadow-lg shadow-[#8484843c] text-opacity-90 font-thin text-slate-100  lg:h-[18rem] w-[95%] mx-auto">
-          Lorem ipsum dolor sit amet consectetur. Feugiat ut purus quam arcu
-          mattis consectetur varius consequat morbi. Elit dolor pretium iaculis
-          enim tincidunt enim viverra. Non proin interdum posuere mi diam sem
-          sollicitudin.
+        <div className="md:w-5/12 bg-[#70363666] rounded-2xl px-3 text-center py-4 text-sm md:px-5 md:pr-12 md:py-6 md:text-lg lg:px-10 lg:pr-20 lg:py-8 lg:text-2xl shadow-lg shadow-[#8484843c] text-opacity-90 font-thin text-slate-100 h-[10rem] md:h-[15.5rem] lg:h-[18rem] w-[95%] mx-auto overflow-scroll overflow-x-hidden hide-scroll">
+          <b>ByteVerse 2.0: Forging the Odyssey of Development </b>
+          <br /> Prepare to immerse yourself in 36 hours of unparalleled coding
+          brilliance at ByteVerse 2.0! Dive into a whirlwind of brainstorming,
+          problem-solving, and intense coding sessions meticulously crafted to
+          ignite your programming genius. Join us in cultivating an environment
+          where programmers unite to tackle challenges head-on, pushing the
+          boundaries of technology and innovation. Together, we'll embark on a
+          journey to uncover optimal solutions using the latest technologies,
+          all while racing against the clock. ByteVerse 2.0 isn't just a
+          hackathon; it's a playground for inventive minds to collaborate,
+          innovate, and redefine what's possible in the world of coding. Are you
+          geared then to unleash your coding prowess and leave your mark on
+          ByteVerse 2.0? Let's create something extraordinary together!
         </div>
         <div className="w-[90%] mx-auto md:w-7/12 bg-[#70363666] shadow-lg shadow-[#8484843c] rounded-2xl lg:h-[18rem]">
           <img
