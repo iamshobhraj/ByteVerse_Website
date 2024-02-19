@@ -8,7 +8,6 @@ export default function Home() {
   return (
     <main>
       <TimelineHero />
-      <CountdownUI />
       <Schedule />
       <FooterSection />
     </main>
