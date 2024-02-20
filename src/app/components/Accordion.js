@@ -1,11 +1,9 @@
 import { useState } from "react";
 import { CiCirclePlus, CiCircleMinus } from "react-icons/ci";
 
-const Accordion = ({ title, answer }) => {
-  const [accordionOpen, setAccordionOpen] = useState(false);
-
+const Accordion = ({ title, answer, expanded, onToggle }) => {
   const toggleAccordion = () => {
-    setAccordionOpen(!accordionOpen);
+    onToggle();
   };
 
   return (
@@ -13,7 +11,7 @@ const Accordion = ({ title, answer }) => {
       <div className="flex justify-between w-full">
         <span>{title}</span>
         <span>
-          {accordionOpen ? (
+          {expanded ? (
             <CiCircleMinus className="text-2xl" />
           ) : (
             <CiCirclePlus className="text-2xl" />
@@ -21,8 +19,8 @@ const Accordion = ({ title, answer }) => {
         </span>
       </div>
       <div
-        className={`grid overflow-hidden transition-all duration-300 ease-in-out text-slate-600 text-sm ${
-          accordionOpen ? "grid-rows-[auto] opacity-100" : "h-0 opacity-0"
+        className={`grid overflow-hidden transition-all duration-1000 ease-in-out text-slate-600 text-sm ${
+          expanded ? "h-fit" : "h-0"
         }`}
       >
         <div className="overflow-hidden text-[#DEB889]">{answer}</div>
