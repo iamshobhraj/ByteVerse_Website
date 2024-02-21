@@ -74,12 +74,12 @@ const FAQ = () => {
       <div className="absolute inset-0 z-0 flex justify-center items-center">
         <Image src={"/byteverse/sword.png"} height={500} width={500} />
       </div>
-      <div className="z-10 w-full h-auto flex flex-col md:flex-row justify-evenly items-center md:px-48 p-4">
-        <div className="w-full py-4  md:w-[600px]  flex flex-col justify-center items-start mb-6 md:mb-0 text-[#DEB889]  ">
-          <h2 className="text-5xl mb-6 font-bold ">
+      <div className="z-10 w-full h-auto flex flex-col lg:flex-row justify-evenly items-center md:px-48 p-4">
+        <div className="w-full py-4  md:w-[600px]  flex flex-col justify-center items-center mb-6 md:mb-0 text-[#DEB889]  ">
+          <h2 className="text-5xl mb-6 lg:ml-20 font-bold lg:text-start text-center">
             Frequently Asked Questions
           </h2>
-          <p className="text-md w-3/4">
+          <p className="text-md w-3/4 lg:text-start text-center">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi natus,
             dignissimos at nostrum illum explicabo distinctio, sapiente, dolores
             nihil magnam praesentium? Ipsam et facilis alias! Temporibus nam hic

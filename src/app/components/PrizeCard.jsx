@@ -14,7 +14,7 @@ const PrizeCard = ({ image, padding, title }) => {
 
   return (
     <div
-      className={`prize-card rounded-md      mt-${padding}    ${
+      className={`prize-card rounded-md   mt-${padding}    ${
         isFlipped ? "flipped" : ""
       } `}
 

@@ -24,7 +24,7 @@ const Prizes = () => {
 
           <div>
             {/* Show this div on small screens */}
-            <div className="w-full pt-10 flex flex-col justify-center items-center gap-3 lg:hidden">
+            <div className="w-full pt-10 flex flex-col justify-center items-center gap-6 lg:hidden px-16">
               <PrizeCard
                 image="/prizes/Gold trophy.png"
                 padding="20"

@@ -20,7 +20,7 @@ const PaperRoll = () => {
 
   return (
     <section id="rules" className="py-8 bg-[#4A0000] flex justify-center">
-      <div className="py-20 pb-40 flex flex-col align-middle w-[90vw] ">
+      <div className=" py-0 lg:py-20 pb-20 lg:pb-40 flex flex-col align-middle w-[90vw] ">
         <img
           src="/PaperRoll.svg"
           className="absolute w-11/12 left-1/2 -translate-x-1/2 z-0 hidden lg:block"
@@ -53,7 +53,7 @@ const PaperRoll = () => {
             transition={{ loop: Infinity, duration: 0.1 }}
           />
         </div>
-        <p className="lg:text-lg md:text-base text-sm font-semibold lg:pt-8 text-center z-20 text-white lg:text-[#350909] w-3/5 m-auto pt-16 ">
+        <p className="lg:text-lg md:text-2xl lg:text-opacity-95 text-opacity-75 text-cl font-semibold lg:pt-8 text-center z-20 text-white lg:text-[#350909] w-3/5 m-auto pt-16 ">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
           aliquet gravida mi, sed bibendum diam fermentum a. Proin commodo enim
           sed augue rutrum imperdiet. Aliquam quis aliquam mi. Quisque vehicula

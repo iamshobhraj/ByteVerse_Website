@@ -5,7 +5,7 @@ import {
   CarouselItem,
   CarouselNext,
   CarouselPrevious,
-  Tabnext
+  Tabnext,
 } from "./carousel";
 import { cn } from "@/lib/utils";
 
@@ -74,14 +74,25 @@ const Tabs = ({ handlenav }) => {
         >
           <CarouselContent className="-ml-2">
             {list.map((item, index) => (
-              <CarouselItem key={index} className={`basis-1/3 pr-20 ${item == "Design" ? "pl-8" : ""} ${item == "Leads" ? "pl-8" : ""} `}>
-                <Tabnext item={item} handlenav={handlenav} setActiveTab={setActiveTab} activeTab={activeTab} index={index} />
+              <CarouselItem
+                key={index}
+                className={`basis-1/3 pr-20 ${item == "Design" ? "pl-8" : ""} ${
+                  item == "Leads" ? "pl-8" : ""
+                } `}
+              >
+                <Tabnext
+                  item={item}
+                  handlenav={handlenav}
+                  setActiveTab={setActiveTab}
+                  activeTab={activeTab}
+                  index={index}
+                />
               </CarouselItem>
             ))}
           </CarouselContent>
         </Carousel>
       </div>
-      <div className="hidden md:flex mb-12 w-1/4 self-start md:self-center md:w-1/3">
+      <div className="hidden md:flex mb-12 w-1/4 self-start md:self-center md:items-center md:w-1/3">
         <div className="block cursor-pointer">
           <nav className="flex gap-1 md:gap-6 " aria-label="Tabs">
             {list.map((item, index) => (
