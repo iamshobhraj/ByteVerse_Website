@@ -1,95 +1,420 @@
 {
     "Leads": [
       {
+        "id":  45,
+        "name": "Rakshit Sinha",
+        "photo": "./organizers/rakshit_sinha.jpg",
+        "group": "Leads",
+        "designation": "Lead Organizer",
+        "linkedin": "https://www.linkedin.com/in/sinha-rakshit",
+        "github": "https://github.com/sinha-rakshit"
+      },
+      {
         "id":  1,
-        "name": "John Smith",
-        "photo": "https://randomuser.me/api/portraits/men/32.jpg",
-        "group": "Leads"
+        "name": "Simranpreet Kaur",
+        "photo": "./organizers/simranpreet_kaur.jpg",
+        "group": "Leads",
+        "designation": "Lead Organizer",
+        "linkedin": "https://www.linkedin.com/in/simranpreet-kaur-8b669b238",
+        "github": "https://github.com/03Simran"
       },
       {
         "id":  2,
-        "name": "Jane Doe",
-        "photo": "https://randomuser.me/api/portraits/women/28.jpg",
-        "group": "Leads"
+        "name": "Sameer Choudhary",
+        "photo": "./organizers/sameer_choudhary.jpg",
+        "group": "Leads",
+        "designation": "Co-Lead Organizer",
+        "linkedin": "https://www.linkedin.com/in/sachin-kumar-9916a9223",
+        "X": "https://x.com/sam_zorroak?t=qx3imRfDA4sfOKJ7hIIVew&s=09",
+        "github": "https://github.com/samzorroak"
       },
       {
         "id":  3,
-        "name": "Bob Wilson",
-        "photo": "https://randomuser.me/api/portraits/men/45.jpg",
-        "group": "Leads"
+        "name": "Devatraj Bhattacharjee",
+        "photo": "./organizers/devatraj.jpg",
+        "group": "Leads",
+        "designation": "Co-Lead Organizer",
+        "linkedin": "https://www.linkedin.com/in/devatraj-bhattacharya-6a22611b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://www.github.com/devatraj"
+      },
+      {
+        "id": 4,
+        "name":"Shrey Kashyap",
+        "photo":"./organizers/shrey_kashyap.jpg",
+        "group": "Leads",
+        "designation": "Treasurer",
+        "linkedin": "https://www.linkedin.com/in/shrey-kashyap-a47b67240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "id": 5,
+        "name": "Anushka Dubey",
+        "photo": "./organizers/anushka_dubey.jpg",
+        "group": "Leads",
+        "designation": "Secretary",
+        "linkedin": "https://linkedin.com/in/anushka-d-751b20229/",
+        "X": "https://twitter.com/nushk0807",
+        "github": "https://github.com/anush07k"
+      },
+      {
+        "id": 6,
+        "name":"Ritwik Singh",
+        "photo":"./organizers/ritwik_singh.jpg",
+        "group": "Leads",
+        "designation": "Technical Lead",
+        "linkedin": "https://www.linkedin.com/in/ritwik-singh-a0b008239/",
+        "github": "https://github.com/RitwikSingh28"
+      },
+      {
+        "id": 7,
+        "name": "Rani Kumari",
+        "photo": "./organizers/rani_kumari.jpg",
+        "group": "Leads",
+        "designation": "Outreach Lead",
+        "linkedin": "https://www.linkedin.com/in/rani-choudhary-a74915229/",
+        "X": "https://twitter.com/rani6201",
+        "github": "https://github.com/rani620"
+      },
+      {
+        "id": 8,
+        "name": "Sachin Kumar",
+        "photo": "./organizers/sachin_kumar.jpg",
+        "group": "Leads",
+        "designation": "Outreach Co-Lead",
+        "linkedin": "https://www.linkedin.com/in/sachin-kumar-9916a9223",
+        "github": "https://github.com/sAchin12320-web"
+      },
+      {
+        "id": 9,
+        "name":"Ifra Ali",
+        "photo":"./organizers/ifra_ali.jpg",
+        "group": "Leads",
+        "designation": "Marketing & Event Management Lead"
+      },
+      {
+        "id": 10,
+        "name": "Abhishek Agrahari",
+        "photo": "./organizers/abhishek.jpg",
+        "group": "Leads",
+        "designation": "Marketing Lead",
+        "linkedin": "https://www.linkedin.com/in/er-abhishek",
+        "github": "https://github.com/err-abhishek"
+      },
+      {
+        "id": 11,
+        "name": "Anshu Gupta",
+        "photo": "./organizers/anshu_gupta.jpg",
+        "group": "Leads",
+        "designation": "Social Media Lead",
+        "linkedin": "https://www.linkedin.com/in/anshu-gupta-66519122a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "X": "https://twitter.com/Aaeyagupt",
+        "github": "https://github.com/Anshu1Gupta"
+      },
+      {
+        "id": 44,
+        "name": "Komal Kumari",
+        "photo": "./organizers/komal_kumari.jpg",
+        "group": "Leads",
+        "designation": "Social Media Manager",
+        "linkedin": "https://www.linkedin.com/in/komal-kumari-79234a258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/komal-nitp"
+      },
+      {
+        "id": 12,
+        "name":"Divyansh Jain",
+        "photo":"./organizers/divyansh_jain.jpg",
+        "group": "Leads",
+        "designation": "Mentorship Lead",
+        "linkedin": "https://www.linkedin.com/in/divyansh-jain-2928b3228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/Divyansh-3103"
+      },
+      {
+        "id": 14,
+        "name": "Nisarg Patel",
+        "photo": "./organizers/nisarg_patel.jpg",
+        "group": "Leads",
+        "designation": "Discord Lead",
+        "linkedin": "https://www.linkedin.com/in/nisarg-patel-293454229/",
+        "X": "https://twitter.com/Nisarg2003",
+        "github": "https://github.com/Nisarg1206"
+      },
+      {
+        "id": 15,
+        "name":"Ravi Ranjan",
+        "photo":"./organizers/ravi_ranjan.jpg",
+        "group": "Leads",
+        "designation": "Discipline Lead",
+        "linkedin": "https://www.linkedin.com/in/ravi-ranjan-212674232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "id": 16,
+        "name":"Rohan Choudhary",
+        "photo":"./organizers/rohan_choudhary.jpg",
+        "group": "Leads",
+        "designation": "Design Lead",
+        "linkedin": "https://www.linkedin.com/in/rohan-kumar-choudhary-2ab819226",
+        "github": "https://github.com/rohanug21cs"
+      },
+      {
+        "id": 17,
+        "name": "Divyanshi Dixita",
+        "photo": "./organizers/divyanshi_dixita.jpg",
+        "group": "Leads",
+        "designation": "Content Lead",
+        "linkedin": "https://www.linkedin.com/in/divyanshi-dixita-314a0724b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "github": "https://github.com/Divyanshi-3"
+      },
+      {
+        "id": 18,
+        "name": "Garima Vijay",
+        "photo": "./organizers/garima_vijay.jpg",
+        "group": "Leads",
+        "designation": "Content Lead"
       }
     ],
     "Web": [
       {
-        "name":"amelie",
-        "photo":"https://ychef.files.bbci.co.uk/1600x900/p09w4m72.webp",
-        "group": "Web"
+        "id": 19,
+        "name": "Aditya Raj",
+        "photo": "./organizers/aditya_raj.jpg",
+        "group": "Web",
+        "designation": "Website Team Member",
+        "linkedin": "https://www.linkedin.com/in/michael-aditya-8764a3205?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
       },
       {
-        "name": "Sarah Lee",
-        "photo": "https://randomuser.me/api/portraits/women/44.jpg",
-        "group": "Web"
+        "id": 20,
+        "name": "Abhinav Singh",
+        "photo": "./organizers/abhinav_singh.jpg",
+        "group": "Web",
+        "designation": "Website Team Member",
+        "linkedin": "https://www.linkedin.com/in/abhinav-singh-15a4a7258/",
+        "github": "https://github.com/Abhinav1341"
       },
       {
-        "name": "Mike Davis",
-        "photo": "https://randomuser.me/api/portraits/men/53.jpg",
-        "group": "Web"
+        "id": 21,
+        "name": "Divyansh Gupta",
+        "photo": "./organizers/divyansh_gupta.jpg",
+        "group": "Web",
+        "designation": "Website Team Member",
+        "linkedin": "https://www.linkedin.com/in/divyansh-gupta-7a71b8250/",
+        "X": "https://twitter.com/Divyans97721222",
+        "github": "https://github.com/divyansh12git"
       },
       {
-        "name": "Jessica Thompson",
-        "photo": "https://randomuser.me/api/portraits/women/27.jpg",
-        "group": "Web"
+        "id": 22,
+        "name": "Devendra Singh",
+        "photo": "./organizers/devendra_singh.jpg",
+        "group": "Web",
+        "designation": "Website Team Member",
+        "linkedin": "https://www.linkedin.com/in/devendra-singh-ba1917257/",
+        "X": "https://twitter.com/Devendr56885245",
+        "github": "https://github.com/dev04sa"
+      },
+      {
+        "id": 23,
+        "name": "Pranansh Singh",
+        "photo": "./organizers/pranansh_singh.jpg",
+        "group": "Web",
+        "designation": "Website Team Member",
+        "linkedin": "https://www.linkedin.com/in/pranansh-singh-9288a523b/",
+        "X": "https://x.com/pronounshu?t=Hzy8DjT126bPOoc0OXquLg&s=09",
+        "github": "https://github.com/pranansh-s"
+      },
+      {
+        "id": 22,
+        "name": "Shobh Raj",
+        "photo": "./organizers/shobh_raj.jpg",
+        "group": "Web",
+        "designation": "Website Team Member",
+        "linkedin": "https://www.linkedin.com/in/iamshobh/",
+        "github": "https://github.com/iamshobhraj"
       }
     ],
-    "Sponsorship": [
+    "Outreach": [
       {
-        "name": "Chris Martin",
-        "photo": "https://randomuser.me/api/portraits/men/24.jpg",
-        "group": "Sponsorship"
+        "id": 23,
+        "name": "Shubham Tiwari",
+        "photo": "./organizers/shubham_tiwari.jpg",
+        "group": "Outreach",
+        "designation": "Outreach Manager",
+        "linkedin": "https://www.linkedin.com/in/shubham-tiwari-966223253/",
+        "X": "https://x.com/Shubh_Tiwari05?t=PdldgwS-F4ZrC2Kar5u0dw&s=09",
+        "github": "https://github.com/ShubhamTiwari55"
       },
       {
-        "name": "Emily Wilson",
-        "photo": "https://randomuser.me/api/portraits/women/25.jpg",
-        "group": "Sponsorship"
+        "id": 24,
+        "name": "Abdul Subhan",
+        "photo": "./organizers/abdul_subhan.jpg",
+        "group": "Outreach",
+        "designation": "Outreach Manager",
+        "linkedin": "https://www.linkedin.com/in/abdulsubhan12?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
+        "github": "https://github.com/gitsubh7"
       },
       {
-        "name": "David Johnson",
-        "photo": "https://randomuser.me/api/portraits/men/65.jpg",
-        "group": "Sponsorship"
+        "id": 25,
+        "name": "Piyush Singh",
+        "photo": "./organizers/piyush_singh.HEIC",
+        "group": "Outreach",
+        "designation": "Outreach Manager",
+        "linkedin": "https://www.linkedin.com/in/piyush-singh-2a80ba253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/piyuuussh"
+      },
+      {
+        "id": 26,
+        "name": "Utkarsh Ranjan",
+        "photo": "./organizers/utkarsh_ranjan.jpg",
+        "group": "Outreach",
+        "designation": "Outreach Manager",
+        "linkedin": "https://www.linkedin.com/in/utkarsh-ranjan-15b32b24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "X": "https://x.com/Qu454r?t=LRKcwrDAvYMvsYaABgLKHA&s=09",
+        "github": "https://github.com/Yashrajdps13"
+      },
+      {
+        "id": 28,
+        "name": "Sakshat Walishetti",
+        "photo": "./organizers/sakshat_walishetti.jpg",
+        "group": "Outreach",
+        "designation": "Outreach Manager",
+        "linkedin": "https://www.linkedin.com/in/sakshat-walishetti",
+        "github": "https://github.com/SAKSHaTHOR?tab=repositories"
       }
     ],
-    "Design": [
+    "Event": [
       {
-        "name": "Michelle Harris",
-        "photo": "https://randomuser.me/api/portraits/women/30.jpg",
-        "group": "Design"
+        "id": 29,
+        "name": "Siddharth Shukla",
+        "photo": "./organizers/siddharth_shukla.jpg",
+        "group": "Event",
+        "designation": "Event Management Co-Lead",
+        "linkedin": "https://www.linkedin.com/in/siddharth-shukla-816702227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://gitHub.com/Siddharth015"
       },
       {
-        "name": "Bob Marley",
-        "photo": "https://randomuser.me/api/portraits/men/12.jpg",
-        "group": "Design"
+        "id": 30,
+        "name": "Saurabh Kumar",
+        "photo": "./organizers/saurabh_kumar.jpg",
+        "group": "Event",
+        "designation": "Event Management Co-Lead",
+        "linkedin": "https://www.linkedin.com/in/saurabhalp"
       },
       {
-        "name": "Sandra Dee",
-        "photo": "https://randomuser.me/api/portraits/women/14.jpg",
-        "group": "Design"
+        "id": 31,
+        "name": "Mayank Harsh",
+        "photo": "./organizers/mayank_harsh.jpg",
+        "group": "Event",
+        "designation": "Event Management Co-Lead",
+        "linkedin": "https://www.linkedin.com/in/mayank-harsh-61704b278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/MayankHarsh03"
       }
     ],
-    "Management": [
+    "Marketing": [
       {
-        "name": "Michael Scott",
-        "photo": "https://randomuser.me/api/portraits/men/42.jpg",
-        "group": "Management"
+        "id": 32,
+        "name": "Shreya Jha",
+        "photo": "./organizers/shreya_jha.jpg",
+        "group": "Marketing",
+        "designation": "Marketing Manager",
+        "linkedin": "https://www.linkedin.com/in/shreya-jha-539255257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "https://github.com/Jhshreya"
       },
       {
-        "name": "Pam Beesly",
-        "photo": "https://randomuser.me/api/portraits/women/21.jpg",
-        "group": "Management"
+        "id": 33,
+        "name": "Niharika Srivastava",
+        "photo": "./organizers/niharika_srivastava.jpg",
+        "group": "Marketing",
+        "designation": "Marketing Manager",
+        "linkedin": "https://www.linkedin.com/in/niharika-srivastava-966668258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "X": "https://x.com/Niharikasriii16?t=bAgefcsfji6X4DMGzt-FqA&s=09",
+        "github": "https://github.com/niharikasrii"
       },
       {
-        "name": "Dwight Schrute",
-        "photo": "https://randomuser.me/api/portraits/men/22.jpg",
-        "group": "Management"
+        "id": 34,
+        "name": "Divyansh Srivastava",
+        "photo": "./organizers/divyansh_srivastava.jpg",
+        "group": "Marketing",
+        "designation": "Marketing Manager",
+        "linkedin": "https://linkedin.com/in/srivas-divyansh",
+        "github": "https://www.github.com/srivas-divyansh"
+      },
+      {
+        "id": 35,
+        "name": "Shradha Jha",
+        "photo": "./organizers/shradha_jha.jpg",
+        "group": "Marketing",
+        "designation": "Marketing Manager",
+        "linkedin": "https://www.linkedin.com/in/shradha-jha-68797621b",
+        "github": "https://github.com/shradhaj06"
+      },
+      {
+        "id": 36,
+        "name": "Manya Chandra",
+        "photo": "./organizers/manya_chandra.jpg",
+        "group": "Marketing",
+        "designation": "Marketing Manager",
+        "linkedin": "http://linkedin.com/in/manyachandra8",
+        "github": "https://github.com/Manyachandra"
+      },
+      {
+        "id": 37,
+        "name": "Raj Aarzoo Singh",
+        "photo": "./organizers/raj_aarzoo_singh.jpg",
+        "group": "Marketing",
+        "designation": "Marketing Manager",
+        "linkedin": "https://www.linkedin.com/in/aarzoo-singh-87414a265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "id": 38,
+        "name": "Anjali Kumari",
+        "photo": "./organizers/anjali_kumari.jpg",
+        "group": "Marketing",
+        "designation": "Marketing Manager",
+        "linkedin": "https://www.linkedin.com/in/anjali-kumari-ak707"
+      },
+      {
+        "id": 39,
+        "name": "Mitali Dixit",
+        "photo": "./organizers/mitali_dixit.jpg",
+        "group": "Marketing",
+        "designation": "Marketing Manager",
+        "linkedin": "https://www.linkedin.com/in/mitali-dixit-9b0570254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "X": "https://x.com/mitalidxt?t=U8xPNoy1_w5zIfGUZO0SDQ&s=09",
+        "github": "https://github.com/mitali-dxt"
+      }
+    ],
+    "Design" : [
+      {
+        "id": 40,
+        "name": "Dhruv Narayan Jaiswal",
+        "photo": "./organizers/dhruv_narayan_jaiswal.jpg",
+        "group": "Design",
+        "designation": "Design Co-Lead",
+        "linkedin": "https://www.linkedin.com/in/dhruvjaiswal135/",
+        "X": "https://twitter.com/JasiwalDhruv",
+        "github": "https://github.com/dhruvjaiswal135"
+      },
+      {
+        "id": 41,
+        "name": "Nikhil Ranjan",
+        "photo": "./organizers/nikhil_ranjan.jpg",
+        "group": "Design",
+        "designation": "Design Co-Lead",
+        "linkedin": "https://www.linkedin.com/in/nikhil-ranjan-4a40ab257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+        "github": "github.com/ranjanniki24"
+      },
+      {
+        "id": 42,
+        "name": "Md. Arif",
+        "photo": "./organizers/md_arif.jpg",
+        "group": "Design",
+        "designation": "Design Coordinator",
+        "linkedin": "https://www.linkedin.com/in/mohd-arif-3679b5255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+      },
+      {
+        "id": 43,
+        "name": "Kirtan Patidar",
+        "photo": "./organizers/kirtan_patidar.jpg",
+        "group": "Design",
+        "designation": "Design Coordinator",
+        "linkedin": "https://www.linkedin.com/in/kirtan-patidar-632886285/"
       }
     ]
   }

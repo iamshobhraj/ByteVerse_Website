@@ -61,7 +61,7 @@ CardFooter.displayName = "CardFooter";
 
 const Tabs = ({ handlenav }) => {
   const [activeTab, setActiveTab] = React.useState("Leads");
-  const list = ["Leads", "Web", "Sponsorship", "Design", "Management"];
+  const list = ["Leads", "Web", "Outreach", "Design", "Event", "Marketing"];
   return (
     <>
       <div className="md:hidden flex w-full p-6 items-center justify-center">
