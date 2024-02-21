@@ -26,8 +26,12 @@ const HomePage = () => {
       <Sponsors />
       <Prizes />
       <Teams />
-      <FAQ />
-      <FooterSection />
+      <div>
+        <FAQ />
+      </div>
+      <div>
+        <FooterSection />
+      </div>
     </main>
   );
 };

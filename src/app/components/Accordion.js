@@ -7,7 +7,10 @@ const Accordion = ({ title, answer, expanded, onToggle }) => {
   };
 
   return (
-    <div onClick={toggleAccordion} className="p-2 mb-4 border border-[#FFFFFF]  text-[#DEB889] rounded-md ">
+    <div
+      onClick={toggleAccordion}
+      className="p-2 mb-4 border border-[#FFFFFF]  text-[#DEB889] rounded-md hover:shadow-lg cursor-pointer"
+    >
       <div className="flex justify-between w-full">
         <span>{title}</span>
         <span>
