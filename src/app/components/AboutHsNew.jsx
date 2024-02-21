@@ -31,7 +31,7 @@ const AboutUs = (props) => {
             />
           </div>
           <div className="w-full px-4 lg:px-10">
-            <p className="md:pt-8 text-white text-justify text-sm md:text-base lg:text-lg">
+            <p className="md:pt-8 text-white text-justify text-sm md:text-base lg:text-lg lg:h-[20rem]">
               Hackslash Developer's Club NIT Patna established with the vision
               of fostering a culture of innovation and collaboration. Hackslash
               is a dynamic community of developers, designers and tech
@@ -60,7 +60,7 @@ const AboutUs = (props) => {
             />
           </div>
           <div className="w-full px-4 lg:px-10">
-            <p className="md:pt-8 text-white text-justify text-sm md:text-base lg:text-lg">
+            <p className="md:pt-8 text-white text-justify text-sm md:text-base lg:text-lg lg:h-[20rem]">
               GDSC NIT Patna is a hub for innovation and community building
               where student can learn, connect and grow their skills through
               various projects, events and mentorship programs. GDSC aim to
@@ -89,7 +89,7 @@ const AboutUs = (props) => {
             />
           </div>
           <div className="w-full px-4 lg:px-10">
-            <p className="md:pt-8 text-white text-justify text-sm md:text-base lg:text-lg">
+            <p className="md:pt-8 text-white text-justify text-sm md:text-base lg:text-lg lg:h-[20rem]">
               The premier Design Company at the NIT Patna where creativity meets
               innovation to shape the future.Desco is dedicated to nurturing a
               community of designers, thinkers and creators. Desco provides
