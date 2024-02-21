@@ -17,7 +17,7 @@ export default function TimelineNavbar() {
   }, []);
   return (
     <div
-      className={`md:flex hidden xl:px-64 lg:px-40 px-24 w-full xl:h-28 md:h-24 items-center font-japanese xl:text-2xl lg:text-xl text-lg uppercase whitespace-nowrap transition-all duration-300 bg-gradient-to-b to-transparent ${
+      className={`md:flex hidden xl:px-64 lg:px-40 px-24 w-full xl:h-28 md:h-24 items-center font-japanese xl:text-2xl lg:text-xl text-lg uppercase whitespace-nowrap transition-all duration-75 bg-gradient-to-b to-transparent ${
         isTop ? "from-transparent" : "from-black/80"
       }`}
     >
@@ -25,7 +25,7 @@ export default function TimelineNavbar() {
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
             href="/"
-            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
+            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-75"
           >
             Home
           </Link>
@@ -33,7 +33,7 @@ export default function TimelineNavbar() {
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
             href="/#about"
-            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
+            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-75"
           >
             About Us
           </Link>
@@ -41,8 +41,7 @@ export default function TimelineNavbar() {
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
             href="/timeline"
-
-            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
+            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-75"
           >
             Timeline
           </Link>
@@ -50,7 +49,7 @@ export default function TimelineNavbar() {
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
             href="/#rules"
-            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
+            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-75"
           >
             Rules
           </Link>
@@ -58,7 +57,7 @@ export default function TimelineNavbar() {
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
             href="/#sponsors"
-            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
+            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-75"
           >
             Sponsors
           </Link>
@@ -66,7 +65,7 @@ export default function TimelineNavbar() {
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
             href="/#contact"
-            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
+            className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-75"
           >
             Contact Us
           </Link>
