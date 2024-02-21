@@ -30,7 +30,7 @@ const About = (props) => {
       <div className=" mt-4 flex flex-col md:flex-row  justify-evenly items-center  ">
         <Card />
       </div>
-      <div className="m-14 flex flex-col md:space-y-2 md:flex-row justify-evenly items-center">
+      <div className="m-14 flex flex-col   md:space-y-2 md:flex-row justify-evenly items-center  ">
         <div className="bg-[#541E1E] w-10/10 md:w-3/5 lg:w-2/5 h-9/10 flex flex-col p-5 rounded-lg shadow-md md:p-10">
           <div className="flex flex-col items-center pt-10 sm:pt-10">
             <div className="flex flex-col items-center">
