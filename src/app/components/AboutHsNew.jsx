@@ -23,7 +23,7 @@ const AboutUs = (props) => {
       </div>
       <Archive />
       <main className="flex flex-col md:flex-row pt-3 lg:pt-16 mb-4 px:8 md:px-4 lg:px-32">
-        <div className="flex flex-col items-center mt-2 bg-[#391313cf] rounded-2xl py-8 mx-4">
+        <div className="flex flex-col items-center mt-2 bg-[#441919cf] cursor-pointer hover:shadow-md rounded-2xl py-8 mx-4">
           <div className="w-full md:w-1/4 mb-4 md:mb-0 h-28 flex flex-col">
             <img
               className="mx-auto -mt-2 md:mt-10 scale-[0.4] md:scale-[2] lg:scale-[1.6]"
@@ -31,7 +31,7 @@ const AboutUs = (props) => {
             />
           </div>
           <div className="w-full px-4 lg:px-10">
-            <p className="md:pt-8 text-white text-justify text-sm md:text-base lg:text-lg">
+            <p className="md:pt-8 text-white text-center text-sm md:text-base lg:text-lg lg:h-[20rem]">
               Hackslash Developer's Club NIT Patna established with the vision
               of fostering a culture of innovation and collaboration. Hackslash
               is a dynamic community of developers, designers and tech
@@ -52,7 +52,7 @@ const AboutUs = (props) => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col items-center mt-2 bg-[#391313cf] rounded-2xl py-8 mx-4">
+        <div className="flex flex-col items-center mt-2 bg-[#441919cf] cursor-pointer hover:shadow-md rounded-2xl py-8 mx-4">
           <div className="w-full md:w-1/4 mb-4 md:mb-0 h-28 flex flex-col">
             <img
               className="mx-auto mt-2 md:mt-12 lg:mt-12 scale-[0.6] md:scale-[2.6] lg:scale-[2.4]"
@@ -60,7 +60,7 @@ const AboutUs = (props) => {
             />
           </div>
           <div className="w-full px-4 lg:px-10">
-            <p className="md:pt-8 text-white text-justify text-sm md:text-base lg:text-lg">
+            <p className="md:pt-8 text-white text-center text-sm md:text-base lg:text-lg lg:h-[20rem]">
               GDSC NIT Patna is a hub for innovation and community building
               where student can learn, connect and grow their skills through
               various projects, events and mentorship programs. GDSC aim to
@@ -81,7 +81,7 @@ const AboutUs = (props) => {
             </Link>
           </div>
         </div>
-        <div className="flex flex-col items-center mt-2 bg-[#391313cf] rounded-2xl py-8 mx-4">
+        <div className="flex flex-col items-center mt-2 bg-[#441919cf] cursor-pointer hover:shadow-md rounded-2xl py-8 mx-4">
           <div className="w-full md:w-1/4 mb-4 md:mb-0 h-28 flex flex-col">
             <img
               className="mx-auto -mt-20 lg:mt-4 md:mt-2 md:scale-[1.06] scale-[0.24] lg:scale-[1]"
@@ -89,7 +89,7 @@ const AboutUs = (props) => {
             />
           </div>
           <div className="w-full px-4 lg:px-10">
-            <p className="md:pt-8 text-white text-justify text-sm md:text-base lg:text-lg">
+            <p className="md:pt-8 text-white text-sm md:text-base lg:text-lg lg:h-[20rem] text-center">
               The premier Design Company at the NIT Patna where creativity meets
               innovation to shape the future.Desco is dedicated to nurturing a
               community of designers, thinkers and creators. Desco provides
