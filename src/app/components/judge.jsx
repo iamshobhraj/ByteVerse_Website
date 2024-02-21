@@ -67,7 +67,7 @@ const Judges = () => {
               <div className="w-full h-full ">
                 <Card className="w-full h-full rounded-b-xl ">
                   <CardContent className="flex items-center justify-center md:w-full w-full h-96 flex-col ">
-                    <div className="w-full lg:h-3/4 h-1/3 overflow-hidden ">
+                    <div className="w-full md:h-1/3 lg:h-1/2 h-1/3 overflow-hidden ">
                       <img
                         src={judge.url}
                         alt={`judge ${index}`}
