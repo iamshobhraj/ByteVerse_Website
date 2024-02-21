@@ -11,7 +11,7 @@ import {
 } from "./ui/carousel";
 import teamKnife from "@/../public/byteverse/team-sword.svg";
 
-import { AiFillLinkedin, AiFillGithub } from "react-icons/ai";
+import { AiFillLinkedin, AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
 import teams from "./teams.json"
 import judges from "./judges.json";
@@ -74,9 +74,21 @@ export default function Teams() {
                       className="object-cover rounded-full h-full absolute scale-75 -right-6 md:-right-9"
                     />
                     <div className="border-[#C89E6D] border-solid border rounded-full relative h-full w-full scale-90 -right-3 md:-right-4 lg:-right-6">
-                      <a className="relative lg:top-28 md:top-20 right-4 sm:top-16 top-12 md:text-4xl text-3xl bg-white">
-                        <AiFillGithub style={{ fill: "#C89E6D" }} />
-                      </a>
+                      {item.linkedin && 
+                        <a href={item.linkedin} target="_blank" className="cursor-pointer relative lg:top-20 md:top-15 right-4 sm:top-16 top-12 md:text-4xl text-3xl bg-white">
+                          <AiFillLinkedin style={{ fill: "#C89E6D" }} />
+                        </a>
+                      }
+                      {item.X &&
+                        <a href={item.X} target="_blank" className="cursor-pointer relative lg:top-20 md:top-15 right-4 sm:top-16 top-12 md:text-4xl text-3xl bg-white">
+                          <AiFillTwitterCircle style={{ fill: "#C89E6D" }} />
+                        </a>
+                      }
+                      {item.github && 
+                        <a href={item.github} target="_blank" className="cursor-pointer relative lg:top-20 md:top-15 right-4 sm:top-16 top-12 md:text-4xl text-3xl bg-white">
+                          <AiFillGithub style={{ fill: "#C89E6D" }} />
+                        </a>
+                      }
                     </div>
                   </CardContent>
                 </Card>
@@ -86,7 +98,7 @@ export default function Teams() {
                   {item.name}
                 </CardTitle>
                 <CardTitle className=" text-xs text-center md:text-base text-[#C89E6D]">
-                  Web Lead
+                  {item.designation}
                 </CardTitle>
               </div>
             </CarouselItem>
