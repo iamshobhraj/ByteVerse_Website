@@ -1,4 +1,4 @@
-"use client";
+"use client"
 import * as React from "react";
 import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle, Tabs } from "./ui/card";
@@ -11,33 +11,32 @@ import {
 } from "./ui/carousel";
 import teamKnife from "@/../public/byteverse/team-sword.svg";
 
-import { AiFillLinkedin, AiFillGithub, AiFillTwitterCircle } from "react-icons/ai";
+import {
+  AiFillLinkedin,
+  AiFillGithub,
+  AiFillTwitterCircle,
+} from "react-icons/ai";
 import { BsTwitterX } from "react-icons/bs";
-import teams from "./teams.json"
+import teams from "./teams.json";
 import judges from "./judges.json";
-import Autoplay from "embla-carousel-autoplay"
+import Autoplay from "embla-carousel-autoplay";
 
 export default function Teams() {
-
   const [listt, setListt] = React.useState(teams.Leads);
 
-  React.useEffect(() => {
-    console.log(teams.Leads);
-  },[])
-
-  const handlenav = (value) => {
-    console.log(value);
-  
-    const allTeams = Object.values(teams).flat(); 
-    const filteredTeams = allTeams.filter(team => {
+  const handlenav = async (value) => {
+    let filteredTeams;
+    try{
+      const allTeams = Object.values(teams).flat();
+      filteredTeams = allTeams.filter((team) => {
       return team.group === value;
     });
-  
-    console.log(filteredTeams);
-    setListt(filteredTeams)
+    } catch(error) {
+      console.log(error);
+    } finally {
+      setListt(filteredTeams);
+    } 
   };
-  
-
 
   return (
     <div className="flex flex-col items-center h-fit gap-6 team-grad pb-20 md:pt-0 pt-20">
@@ -47,7 +46,7 @@ export default function Teams() {
         type="teams"
         plugins={[
           Autoplay({
-            duration:1600,
+            duration: 1600,
             stopOnInteraction: false,
           }),
         ]}
@@ -74,29 +73,49 @@ export default function Teams() {
                       className="object-cover rounded-full h-full absolute scale-75 -right-6 md:-right-9"
                     />
                     <div className="border-[#C89E6D] border-solid border rounded-full relative h-full w-full scale-90 -right-3 md:-right-4 lg:-right-6">
-                      {item.linkedin && 
-                        <a href={item.linkedin} target="_blank" className="cursor-pointer relative lg:top-20 md:top-15 right-4 sm:top-16 top-12 md:text-4xl text-3xl bg-white">
-                          <AiFillLinkedin style={{ fill: "#C89E6D" }} />
-                        </a>
-                      }
-                      {item.X &&
-                        <a href={item.X} target="_blank" className="cursor-pointer relative lg:top-20 md:top-15 right-4 sm:top-16 top-12 md:text-4xl text-3xl bg-white">
-                          <AiFillTwitterCircle style={{ fill: "#C89E6D" }} />
-                        </a>
-                      }
-                      {item.github && 
-                        <a href={item.github} target="_blank" className="cursor-pointer relative lg:top-20 md:top-15 right-4 sm:top-16 top-12 md:text-4xl text-3xl bg-white">
+                      {item.github && (
+                        <a
+                          href={item.github}
+                          target="_blank"
+                          className="cursor-pointer relative lg:top-12 md:top-8 right-1 sm:top-5 top-4 md:text-4xl text-3xl bg-white"
+                        >
                           <AiFillGithub style={{ fill: "#C89E6D" }} />
                         </a>
-                      }
+                      )}
+                      {(item.linkedin && item.github) || (item.linkedin && item.X) ? (
+                        <a
+                          href={item.linkedin}
+                          target="_blank"
+                          className="cursor-pointer relative lg:top-20 md:top-12 right-4 sm:top-8 top-6 md:text-4xl text-3xl bg-white"
+                        >
+                          <AiFillLinkedin style={{ fill: "#C89E6D" }} />
+                        </a>
+                      ) : (
+                        <a
+                          href={item.linkedin}
+                          target="_blank"
+                          className="cursor-pointer relative lg:top-28 md:top-20 right-4 sm:top-16 top-12 md:text-4xl text-3xl bg-white"
+                        >
+                          <AiFillLinkedin style={{ fill: "#C89E6D" }} />
+                        </a>
+                      )}
+                      {item.X && (
+                        <a
+                          href={item.X}
+                          target="_blank"
+                          className="cursor-pointer relative lg:top-28 md:top-16 -right-1 sm:top-12 top-8 md:text-4xl text-3xl bg-white"
+                        >
+                          <AiFillTwitterCircle style={{ fill: "#C89E6D" }} />
+                        </a>
+                      )}
                     </div>
                   </CardContent>
                 </Card>
               </div>
               <div className="gap-1 flex flex-col py-2 leading-3">
-                <CardTitle className=" text-xl text-center md:text-2xl ">
-                  {item.name}
-                </CardTitle>
+                <h3 className=" text-xl text-center md:text-2xl font-semibold leading-6 tracking-tight text-white">
+                  {item.name == "Simranpreet Kaur" ? <span className="tracking tracking-wide">Simranpreet Kaur</span> : item.name}
+                </h3>
                 <CardTitle className=" text-xs text-center md:text-base text-[#C89E6D]">
                   {item.designation}
                 </CardTitle>
