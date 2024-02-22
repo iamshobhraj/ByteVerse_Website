@@ -1,13 +1,27 @@
 .prize-card {
+
     position: relative;
     width: 300px;
     height: 340px;
     perspective: 1000px;
     overflow: hidden; /* Ensure content within the card stays visible */
-    box-shadow: 0px 4px 20px 10px #D6AE7E4D;
-
+    box-shadow: 0px 5px 20px 10px #a6593230;
+    transition: all .3s ease;
   }
-  
+  @media only screen and (max-width: 600px) {
+    .prize-card{
+      margin-top: 2rem;
+      width:17rem;
+      height:22rem;
+    }
+    .prize-card .back {
+      font-size: 0.87rem;
+      padding:1rem;
+    }
+  }
+  .prize-card:hover{
+    transform: scale(1.05);
+  }
   .prize-card .front,
   .prize-card .back {
     position: absolute;
