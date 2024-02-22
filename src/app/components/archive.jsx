@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState, useEffect } from "react";
 import Images from "./archiveImage";
 import "./App.css";
@@ -45,30 +45,25 @@ const Archive = () => {
         </div>
       </div>
       <div className="m-2 flex flex-col md:flex-row p-2 justify-evenly w-full gap-12 lg:pt-6 md:px-10 lg:px-36">
-      <div className="md:w-5/12 bg-[#70363666] rounded-2xl px-3 py-4 text-sm md:px-5 md:py-6 lg:px-10 lg:py-8 lg:text-2xl shadow-lg shadow-[#8484843c] text-opacity-90 font-thin text-slate-100 h-40 md:h-64 lg:h-96 w-full mx-auto overflow-y-auto overflow-x-hidden flex flex-col justify-start items-center">
-  <h2 className="font-bold p-2">ByteVerse 6.0: Forging the Odyssey of Development </h2>
-  <p> Prepare to immerse yourself in 36 hours of unparalleled coding
-  brilliance at ByteVerse 2.0! Dive into a whirlwind of brainstorming,
-  problem-solving, and intense coding sessions meticulously crafted to
-  ignite your programming genius. Join us in cultivating an environment
-  where programmers unite to tackle challenges head-on, pushing the
-  boundaries of technology and innovation. Together, we'll embark on a
-  journey to uncover optimal solutions using the latest technologies,
-  all while racing against the clock. ByteVerse 2.0 isn't just a
-  hackathon; it's a playground for inventive minds to collaborate,
-  innovate, and redefine what's possible in the world of coding. Are you
-  geared then to unleash your coding prowess and leave your mark on
-  ByteVerse 2.0? Let's create something extraordinary together!
-  </p>
-</div>
-  <div className="w-full md:w-7/12 bg-[#70363666] shadow-lg shadow-[#8484843c] rounded-2xl h-40 md:h-64 lg:h-96">
-    <img
-      src={Images[currentImageIndex].src}
-      alt={Images[currentImageIndex].alt}
-      className="h-full w-full object-cover rounded-lg transition-opacity duration-1000"
-    />
-  </div>
-</div>
+        <div className="md:w-5/12 bg-[#70363666] rounded-2xl px-3 py-4 text-sm md:px-5 md:py-6 lg:px-10 lg:py-8 lg:text-2xl shadow-lg shadow-[#8484843c] text-opacity-90 font-thin text-slate-100 h-52 md:h-64 lg:h-96 w-full mx-auto overflow-y-auto hide-scroll overflow-x-hidden flex flex-col justify-start items-center">
+          <h2 className="font-bold md:text-base lg:text-xl xl:text-3xl p-2 text-center">
+            Byteverse: Unleash your coding magic!
+          </h2>
+          <p className="text-center md:text-base xl:text-2xl lg:text-base">
+            Calling all tech wizards, problem solvers, and creative minds!
+            Byteverse, the annual hackathon by Hackslash NITP, returns for its
+            sixth edition. This electrifying event is where innovation meets
+            code and your creativity knows no bounds.
+          </p>
+        </div>
+        <div className="w-full md:w-7/12 bg-[#70363666] shadow-lg shadow-[#8484843c] rounded-2xl h-40 md:h-64 lg:h-96">
+          <img
+            src={Images[currentImageIndex].src}
+            alt={Images[currentImageIndex].alt}
+            className="h-full w-full object-cover rounded-lg transition-opacity duration-1000"
+          />
+        </div>
+      </div>
     </main>
   );
 };
