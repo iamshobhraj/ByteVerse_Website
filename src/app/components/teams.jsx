@@ -113,7 +113,7 @@ export default function Teams() {
                 </Card>
               </div>
               <div className="gap-1 flex flex-col py-2 leading-3">
-                <h3 className=" text-xl text-center md:text-2xl font-semibold leading-6 tracking-tight">
+                <h3 className=" text-xl text-center md:text-2xl font-semibold leading-6 tracking-tight text-white">
                   {item.name == "Simranpreet Kaur" ? <span className="tracking tracking-wide">Simranpreet Kaur</span> : item.name}
                 </h3>
                 <CardTitle className=" text-xs text-center md:text-base text-[#C89E6D]">
