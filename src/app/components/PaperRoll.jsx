@@ -54,11 +54,7 @@ const PaperRoll = () => {
           />
         </div>
         <p className="lg:text-lg md:text-2xl lg:text-opacity-95 text-opacity-75 text-cl font-semibold lg:pt-8 text-center z-20 text-white lg:text-[#350909] w-3/5 m-auto pt-16 ">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
-          aliquet gravida mi, sed bibendum diam fermentum a. Proin commodo enim
-          sed augue rutrum imperdiet. Aliquam quis aliquam mi. Quisque vehicula
-          porta bibendum. Nam vestibulum egestas orci, sit amet semper arcu
-          imperdiet nec. Pellentesque facilisis justo vitae dui congue congue.
+          Themes for the Hackathon are:
         </p>
       </div>
     </section>
