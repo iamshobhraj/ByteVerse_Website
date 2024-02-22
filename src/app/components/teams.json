@@ -40,7 +40,7 @@
       {
         "id": 4,
         "name":"Shrey Kashyap",
-        "photo":"./organizers/shrey_kashyap.jpg",
+        "photo": "./organizers/shrey_kashyap.jpg",
         "group": "Leads",
         "designation": "Treasurer",
         "linkedin": "https://www.linkedin.com/in/shrey-kashyap-a47b67240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -58,7 +58,7 @@
       {
         "id": 6,
         "name":"Ritwik Singh",
-        "photo":"./organizers/ritwik_singh.jpg",
+        "photo": "./organizers/ritwik_singh.jpg",
         "group": "Leads",
         "designation": "Technical Lead",
         "linkedin": "https://www.linkedin.com/in/ritwik-singh-a0b008239/",
@@ -86,7 +86,7 @@
       {
         "id": 9,
         "name":"Ifra Ali",
-        "photo":"./organizers/ifra_ali.jpg",
+        "photo": "./organizers/ifra_ali.jpg",
         "group": "Leads",
         "designation": "Marketing & Event Management Lead"
       },
@@ -121,7 +121,7 @@
       {
         "id": 12,
         "name":"Divyansh Jain",
-        "photo":"./organizers/divyansh_jain.jpg",
+        "photo": "./organizers/divyansh_jain.jpg",
         "group": "Leads",
         "designation": "Mentorship Lead",
         "linkedin": "https://www.linkedin.com/in/divyansh-jain-2928b3228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -140,7 +140,7 @@
       {
         "id": 15,
         "name":"Ravi Ranjan",
-        "photo":"./organizers/ravi_ranjan.jpg",
+        "photo": "./organizers/ravi_ranjan.jpg",
         "group": "Leads",
         "designation": "Discipline Lead",
         "linkedin": "https://www.linkedin.com/in/ravi-ranjan-212674232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -148,7 +148,7 @@
       {
         "id": 16,
         "name":"Rohan Choudhary",
-        "photo":"./organizers/rohan_choudhary.jpg",
+        "photo": "./organizers/rohan_choudhary.jpg",
         "group": "Leads",
         "designation": "Design Lead",
         "linkedin": "https://www.linkedin.com/in/rohan-kumar-choudhary-2ab819226",
@@ -252,7 +252,7 @@
       {
         "id": 25,
         "name": "Piyush Singh",
-        "photo": "./organizers/piyush_singh.HEIC",
+        "photo": "./organizers/piyush_singh.jpg",
         "group": "Outreach",
         "designation": "Outreach Manager",
         "linkedin": "https://www.linkedin.com/in/piyush-singh-2a80ba253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
