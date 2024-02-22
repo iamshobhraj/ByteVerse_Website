@@ -27,7 +27,7 @@ const AboutUs = (props) => {
         <AboutIamge />
       </div>
       <Archive />
-      <main className="flex flex-col gap-6 md:flex-row pt-3 lg:pt-16 mb-4 px:8 md:px-4 lg:px-32">
+      <div className="flex flex-col gap-6 md:flex-row pt-3 lg:pt-16 mb-4 px:8 md:px-4 lg:px-32">
         <div className="flex flex-col items-center mt-2 bg-[#441919cf] cursor-pointer hover:shadow-md rounded-2xl py-8 mx-4">
           <div className="w-full md:w-1/4 mb-4 md:mb-0 h-28 flex flex-col">
             <img
@@ -87,19 +87,22 @@ const AboutUs = (props) => {
           </div>
         </div>
         <div className="flex flex-col items-center mt-2 bg-[#441919cf] cursor-pointer hover:shadow-md rounded-2xl py-8 mx-4">
-          <div className="w-full md:w-1/4 mb-4 md:mb-0 h-28 flex flex-col">
-            <img
-              className="mx-auto -mt-48 lg:mt-4 md:mt-2 md:scale-[1.06] scale-[0.24] lg:scale-[1]"
-              src="/byteverse/desco.png"
-            />
+          <div className="w-full md:w-1/4 mb-8 md:mb-0 h-32 flex flex-col">
+          <Image
+  className="mx-auto md:mt-12 lg:mt-12 scale-[0.6] md:scale-[2.6] lg:scale-[2.4]"
+  src="/byteverse/desco.png"
+  alt="Desco"
+  width={50}
+  height={50}
+/>
           </div>
-          <div className="w-full px-4 lg:px-10">
-            <p className="md:pt-8 text-white text-sm md:text-base lg:text-lg lg:h-[20rem] text-center">
-              The premier Design Company at the NIT Patna where creativity meets
-              innovation to shape the future.Desco is dedicated to nurturing a
-              community of designers, thinkers and creators. Desco provides
-              real-world experience through workshops, design challenges and
-              collaborative projects.
+          <div className="w-full px-4  lg:px-10">
+            <p className="md:pt-8 text-white text-center text-sm md:text-base lg:text-lg lg:h-[20rem]">
+            The premier Design Company at the NIT Patna where creativity meets
+      innovation to shape the future.Desco is dedicated to nurturing a
+      community of designers, thinkers and creators. Desco provides
+      real-world experience through workshops, design challenges and
+      collaborative projects.
             </p>
           </div>
           <div className="w-full flex flex-row justify-center items-center gap-5 pt-6">
@@ -115,7 +118,9 @@ const AboutUs = (props) => {
             </Link>
           </div>
         </div>
-      </main>
+        
+        
+      </div>
     </main>
   );
 };
