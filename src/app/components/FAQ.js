@@ -80,10 +80,10 @@ const FAQ = () => {
             Frequently Asked Questions
           </h2>
           <p className="text-md w-3/4 lg:text-start text-center">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi natus,
-            dignissimos at nostrum illum explicabo distinctio, sapiente, dolores
-            nihil magnam praesentium? Ipsam et facilis alias! Temporibus nam hic
-            consectetur tenetur.
+            Byteverse '24 is an annual hackathon that unites programmers,
+            developers, and tech enthusiasts to innovate and create. Here,
+            you'll find answers to common questions about the event. Let's get
+            started!
           </p>
         </div>
         <div className="p-4 sm:w-full md:w-[400px] rounded-lg">

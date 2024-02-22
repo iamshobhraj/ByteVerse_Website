@@ -16,7 +16,7 @@ const HomePage = () => {
   return (
     <main id="home" className="bg-[#720D0D]">
       <Hero />
-      <div id="about" className="  h-[2300px] md:h-[1500px] gradient-bg  p-4">
+      <div id="about" className="  h-[2400px] md:h-[1500px] gradient-bg  p-4">
         <AboutUs />
       </div>
 
