@@ -151,7 +151,9 @@ const FooterSection = () => {
           <div className="flex flex-col gap-2 lg:mr-16    ">
             <div className="flex items-center gap-5 ">
               <img src={discord} alt="" className="h-6" />
-              <div className="text-[10px]">Join us @Discord</div>
+              <Link href={"https://discord.gg/Es29vwFc"} alt={"Discord Link"} target="_blank">
+                <div className="text-[10px]">Join us @Discord</div>
+              </Link>
             </div>
             <div className="flex items-center gap-5">
               <img src={terms} alt="" className="h-6" />
