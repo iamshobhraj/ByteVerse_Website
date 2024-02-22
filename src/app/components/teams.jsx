@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import * as React from "react";
 import Image from "next/image";
 import { Card, CardContent, CardHeader, CardTitle, Tabs } from "./ui/card";
@@ -21,22 +21,24 @@ import teams from "./teams.json";
 import judges from "./judges.json";
 import Autoplay from "embla-carousel-autoplay";
 
+const MemoizedCarouselItem = React.memo(CarouselItem);
+
 export default function Teams() {
   const [listt, setListt] = React.useState(teams.Leads);
 
-  const handlenav = async (value) => {
+  const handlenav = React.useCallback(async (value) => {
     let filteredTeams;
-    try{
+    try {
       const allTeams = Object.values(teams).flat();
       filteredTeams = allTeams.filter((team) => {
-      return team.group === value;
-    });
-    } catch(error) {
+        return team.group === value;
+      });
+    } catch (error) {
       console.log(error);
     } finally {
       setListt(filteredTeams);
-    } 
-  };
+    }
+  }, [teams]);
 
   return (
     <div className="flex flex-col items-center h-fit gap-6 team-grad pb-20 md:pt-0 pt-20">
@@ -58,11 +60,9 @@ export default function Teams() {
       >
         <CarouselContent>
           {listt.map((item, index) => (
-            <CarouselItem
+            <MemoizedCarouselItem
               key={index}
-              className={`basis-1/2 sm:basis-1/3 lg:pl-6 pl-1 relative  ${
-                "team" + index
-              }`}
+              className={`basis-1/2 sm:basis-1/3 lg:pl-6 pl-1 relative  ${"team" + index}`}
             >
               <div className="p-1 flex w-full items-center justify-center">
                 <Card className="rounded-full relative h-32 w-32 sm:h-40 sm:w-40 md:h-48 md:w-48 lg:size-64">
@@ -120,7 +120,7 @@ export default function Teams() {
                   {item.designation}
                 </CardTitle>
               </div>
-            </CarouselItem>
+            </MemoizedCarouselItem>
           ))}
         </CarouselContent>
 
