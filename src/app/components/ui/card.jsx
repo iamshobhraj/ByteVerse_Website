@@ -92,7 +92,7 @@ const Tabs = ({ handlenav }) => {
           </CarouselContent>
         </Carousel>
       </div>
-      <div className="hidden md:flex mb-12 w-1/4 self-start md:self-center md:items-center md:w-1/3">
+      <div className="hidden md:flex mb-12 w-1/4 self-center md:items-center md:w-fit">
         <div className="block cursor-pointer">
           <nav className="flex gap-1 md:gap-6 " aria-label="Tabs">
             {list.map((item, index) => (
