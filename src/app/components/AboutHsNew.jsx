@@ -31,12 +31,12 @@ const AboutUs = (props) => {
         <div className="flex flex-col items-center mt-2 bg-[#441919cf] cursor-pointer hover:shadow-md rounded-2xl py-4 md:py-8 mx-4">
           <div className="w-full md:w-1/4 mb-4 md:mb-0 h-24 md:h-28 flex flex-col">
             <img
-              className="mx-auto -mt-2 md:mt-10 scale-[0.4] md:scale-[2] lg:scale-[1.6]"
+              className="mx-auto -mt-10 md:mt-7  scale-[0.4] md:scale-[2] lg:scale-[1.6]"
               src="/byteverse/hackkkk.png"
             />
           </div>
           <div className="w-full px-4 lg:px-10">
-            <p className="md:pt-8 text-white text-center text-sm md:text-base lg:text-lg lg:h-[20rem]">
+            <p className="md:pt-8 text-white  text-sm md:text-base lg:text-lg lg:h-[20rem] font-light lg:text-justify text-center">
               Hackslash Developer's Club NIT Patna established with the vision
               of fostering a culture of innovation and collaboration. Hackslash
               is a dynamic community of developers, designers and tech
@@ -65,7 +65,7 @@ const AboutUs = (props) => {
             />
           </div>
           <div className="w-full px-4  lg:px-10">
-            <p className="md:pt-8 text-white text-center text-sm md:text-base lg:text-lg lg:h-[20rem]">
+            <p className="md:pt-8 text-white  text-sm md:text-base lg:text-lg lg:h-[20rem] font-light lg:text-justify text-center">
               GDSC NIT Patna is a hub for innovation and community building
               where student can learn, connect and grow their skills through
               various projects, events and mentorship programs. GDSC aim to
@@ -89,12 +89,12 @@ const AboutUs = (props) => {
         <div className="flex flex-col items-center mt-2 bg-[#441919cf] cursor-pointer hover:shadow-md rounded-2xl py-4 md:py-8 mx-4">
           <div className="w-full md:w-1/4 mb-8 md:mb-0 h-24 md:h-28 flex flex-col">
             <img
-              className="mx-auto -mt-16 lg:mt-4 md:mt-7 md:scale-[1.14] scale-[0.24] lg:scale-[1]"
+              className="mx-auto -mt-[30%] lg:mt-4 md:mt-7 md:scale-[1.14] scale-[0.24] lg:scale-[0.9]"
               src="/byteverse/desco.png"
             />
           </div>
           <div className="w-full px-4  lg:px-10">
-            <p className="md:pt-8 text-white text-center text-sm md:text-base lg:text-lg lg:h-[20rem]">
+            <p className="md:pt-8 text-white  text-sm md:text-base lg:text-lg lg:h-[20rem] font-light lg:text-justify text-center ">
               The premier Design Company at the NIT Patna where creativity meets
               innovation to shape the future.Desco is dedicated to nurturing a
               community of designers, thinkers and creators. Desco provides
