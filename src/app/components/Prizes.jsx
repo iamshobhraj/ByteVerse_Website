@@ -24,7 +24,7 @@ const Prizes = () => {
 
           <div>
             {/* Show this div on small screens */}
-            <div className=" pt-10 flex md:flex-col flex-wrap justify-center items-center md:gap-6 gap-10  lg:hidden px-0">
+            <div className=" pt-10 flex px-10 flex-wrap justify-center items-center md:gap-6 gap-10  lg:hidden ">
               <PrizeCard
                 image="/prizes/Gold trophy.png"
                 padding="20"
@@ -43,7 +43,7 @@ const Prizes = () => {
             </div>
 
             {/* Show this div on medium and large screens */}
-            <div className="w-full h-screen  p-10  flex-col justify-center items-center gap-3 hidden lg:flex lg:flex-row lg:justify-between lg:items-center lg:gap-16">
+            <div className="w-screen  h-screen   p-10   flex-col justify-center items-center  hidden  lg:flex lg:flex-row lg:justify-evenly lg:items-center ">
               <PrizeCard
                 image="/prizes/Silver trophy.png"
                 padding="20"
