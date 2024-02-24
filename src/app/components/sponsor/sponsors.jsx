@@ -23,14 +23,21 @@ const Sponsors = () => {
             className=" mt-36"
             style={{ scale: "80%", zIndex: "10" }}
           />
-          <Category title="TITLE SPONSORS" items={slist["title-sponsors"]} />
+          <Category 
+            title="TITLE SPONSORS" 
+            items={slist["title-sponsors"]} 
+            paperRollUrl="/byteverse/sponsor/title-sponsor.svg"
+
+          />
           <Category
             title="ASSOCIATE SPONSORS"
             items={slist["associate-sponsors"]}
+            paperRollUrl="/byteverse/sponsor/associate-sponsor.svg"
           />
           <Category
             title="SUBEVENT SPONSORS"
             items={slist["sub-event-sponsors"]}
+            paperRollUrl="/byteverse/sponsor/subevent-sponsor.svg"
           />
         </div>
       </div>
