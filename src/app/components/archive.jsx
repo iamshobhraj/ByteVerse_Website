@@ -48,11 +48,11 @@ const Archive = () => {
         </div>
       </div>
       <div className="m-2 flex flex-col md:flex-row p-2 justify-evenly w-full gap-12 lg:pt-6 md:px-10 lg:px-36">
-        <div className="md:w-5/12 bg-[#70363666] rounded-2xl px-3 py-4 text-sm md:px-5 md:py-6 lg:px-10 lg:py-8 lg:text-2xl shadow-lg shadow-[#8484843c] text-opacity-90 font-thin text-slate-100 h-52 md:h-64 lg:h-96 w-full mx-auto overflow-y-auto hide-scroll overflow-x-hidden flex flex-col justify-start items-center">
+        <div className="md:w-5/12 bg-[#70363666]  rounded-2xl px-3 py-4 text-sm md:px-5 md:py-6 lg:px-10 lg:py-8 lg:text-2xl shadow-lg shadow-[#8484843c] text-opacity-90 font-thin text-slate-100 h-52 md:h-64 lg:h-96 w-full mx-auto overflow-y-auto hide-scroll overflow-x-hidden flex flex-col justify-center lg:gap-6 items-center">
           <h2 className="font-bold md:text-base lg:text-xl xl:text-3xl p-2 text-center">
             Byteverse: Unleash your coding magic!
           </h2>
-          <p className="text-center md:text-base xl:text-2xl lg:text-base">
+          <p className="lg:text-justify text-center md:text-base xl:text-lg lg:text-base">
             Calling all tech wizards, problem solvers, and creative minds!
             Byteverse, the annual hackathon by Hackslash NITP, returns for its
             sixth edition. This electrifying event is where innovation meets
