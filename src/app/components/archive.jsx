@@ -1,7 +1,16 @@
 "use client";
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import Images from "./archiveImage";
 import "./App.css";
+import useScrollTriggeredCountUp from './useScrollTriggeredCountUp.jsx';
+
+function CountUp(props) {
+  const ref = useRef(null);
+  const count = useScrollTriggeredCountUp(ref,  props.number); //  0 to  100 count-up
+
+  return <p ref={ref} className="text-6xl md:text-3xl lg:text-5xl text-[#D1A878] font-bold my-0">{count}+</p>
+  
+};
 
 const Archive = () => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -20,25 +29,19 @@ const Archive = () => {
     <main className="pt-6 flex flex-col items-center justify-center w-full mx-0">
       <div className="m-2 flex flex-col md:flex-row p-2 justify-evenly md:gap-8 md:px-12 lg:px-40 sm:px-6 w-full">
         <div className="bg-[#541E1E66] md:w-1/3 sm:w-3/5 h-40 rounded-xl flex flex-col justify-center my-auto items-center md:items-start shadow-md shadow-[#ffe1683c] px-4 mt-3">
-          <p className="text-6xl md:text-3xl lg:text-5xl text-[#D1A878] font-bold my-0">
-            6+
-          </p>
+          <CountUp number={6} />
           <p className="sm:mt-1 md:mt-3 text-2xl md:text-xl lg:text-2xl font-semibold">
             Themes
           </p>
         </div>
         <div className="bg-[#541E1E66] sm:w-3/5 md:w-1/3 h-40 rounded-xl flex flex-col justify-center my-auto shadow-md items-center md:items-start shadow-[#ffe1683c] px-4 mt-3">
-          <p className="text-6xl md:text-3xl lg:text-5xl text-[#D1A878] font-bold my-0">
-            36+
-          </p>
+          <CountUp number={36} />
           <p className="text-2xl sm:mt-1 md:mt-3 md:text-xl lg:text-2xl font-semibold">
             Hours of Hacking
           </p>
         </div>
         <div className="bg-[#541E1E66] sm:w-3/5 md:w-1/3 h-40 rounded-xl flex flex-col justify-center my-auto shadow-md items-center md:items-start shadow-[#ffe1683c] px-4 mt-3">
-          <p className="text-6xl md:text-3xl lg:text-5xl text-[#D1A878] font-bold my-0">
-            600+
-          </p>
+        <CountUp number={600} />
           <p className="text-2xl sm:mt-1 md:text-xl md:mt-3 lg:text-2xl font-semibold">
             Participants
           </p>
