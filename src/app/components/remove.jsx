@@ -10,7 +10,7 @@ import {
   CarouselPrevious,
 } from "./ui/carousel";
 import teamKnife from "@/../public/byteverse/team-sword.svg";
-
+ytrt
 import {
   AiFillLinkedin,
   AiFillGithub,
