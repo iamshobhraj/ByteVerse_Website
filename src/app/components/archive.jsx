@@ -4,9 +4,9 @@ import Images from "./archiveImage";
 import "./App.css";
 import useScrollTriggeredCountUp from './useScrollTriggeredCountUp.jsx';
 
-function CountUp(props) {
+const CountUp = (props) => {
   const ref = useRef(null);
-  const count = useScrollTriggeredCountUp(ref,  props.number); //  0 to  100 count-up
+  const count = useScrollTriggeredCountUp(ref,  props.number); 
 
   return <p ref={ref} className="text-6xl md:text-3xl lg:text-5xl text-[#D1A878] font-bold my-0">{count}+</p>
   

@@ -53,7 +53,7 @@ const PaperRoll = () => {
             transition={{ loop: Infinity, duration: 0.1 }}
           />
         </div>
-        <p className="lg:text-lg md:text-2xl lg:text-opacity-95 text-opacity-75 text-cl font-semibold lg:pt-4 pt-16 text-center z-20 text-white lg:text-[#350909] w-3/5 m-auto">
+        <div className="lg:text-lg md:text-2xl lg:text-opacity-95 text-opacity-75 text-cl font-semibold lg:pt-4 pt-16 text-center z-20 text-white lg:text-[#350909] w-3/5 m-auto">
           <b className="pb-2"> Themes for the Hackathon are: </b>
           <div className="grid sm:grid-cols-2 md:grid-cols-3">
             <div className="py-4 pt-0">Quality Education</div>
@@ -68,7 +68,7 @@ const PaperRoll = () => {
             <div className="py-4 pt-0">Space and Astrophysics</div>
             <div className="py-4 pt-0">Open Innovation</div>
           </div>
-        </p>
+        </div>
       </div>
     </section>
   );
