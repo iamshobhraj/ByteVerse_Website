@@ -16,7 +16,7 @@ const buttonVariants = cva(
         outline:
           "hidden md:flex border border-input bg-transaparent shadow-sm hover:bg-accent hover:text-accent-foreground",
         teams:
-          "border border-input border-[#C89E6D] bg-transparent shadow-sm hover:bg-[#C89E6D] text-accent-[#C89E6D]",
+          "border-2 border-input border-[#C89E6D] bg-transparent shadow-sm hover:bg-[#C89E6D] text-accent-[#C89E6D]",
         secondary:
           "bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80",
         ghost: "hover:bg-accent hover:text-accent-foreground",
