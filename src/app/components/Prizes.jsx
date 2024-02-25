@@ -29,16 +29,25 @@ const Prizes = () => {
                 image="/prizes/Gold trophy.png"
                 padding="20"
                 title="First"
+                prize="10000"
+                details1="One-way system drivers, mock interviews with unlimited practice by Interview Buddy."
+                details2="One year of subscription to  Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
               />
               <PrizeCard
                 image="/prizes/Silver trophy.png"
                 padding="20"
                 title="Second"
+                prize="8000"
+                details1="One-way system drivers, mock interviews with unlimited practice by Interview Buddy."
+                details2="One year of subscription to  Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
               />
               <PrizeCard
                 image="/prizes/Bronze trophy.png"
                 padding="20"
                 title="Third"
+                prize="6000"
+                details1="One-way system drivers, mock interviews with unlimited practice by Interview Buddy."
+                details2="One year of subscription to  Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
               />
             </div>
 
@@ -48,12 +57,18 @@ const Prizes = () => {
                 image="/prizes/Silver trophy.png"
                 padding="20"
                 title="Second"
+                prize="8000"
+                details1="One-way system drivers, mock interviews with unlimited practice by Interview Buddy."
+                details2="One year of subscription to  Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
               />
               <div className="md:mb-32 md:mx-20">
                 <PrizeCard
                   image="/prizes/Gold trophy.png"
                   padding="0"
                   title="First"
+                  prize="10000"
+                  details1="One-way system drivers, mock interviews with unlimited practice by Interview Buddy."
+                  details2="One year of subscription to  Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
                 />
               </div>
 
@@ -61,6 +76,9 @@ const Prizes = () => {
                 image="/prizes/Bronze trophy.png"
                 padding="20"
                 title="Third"
+                prize="6000"
+                details1="One-way system drivers, mock interviews with unlimited practice by Interview Buddy."
+                details2="One year of subscription to  Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
               />
             </div>
           </div>
