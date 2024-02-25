@@ -5,7 +5,7 @@ import "./PrizeCard.css";
 import React, { useEffect, useState } from "react";
 import Image from "next/image";
 
-const PrizeCard = ({ image, padding, title }) => {
+const PrizeCard = ({ image, padding, title, prize, details1, details2 }) => {
   const [isFlipped, setIsFlipped] = useState(false);
 
   const handleFlip = () => {
@@ -34,15 +34,13 @@ const PrizeCard = ({ image, padding, title }) => {
         </button>
       </div>
       <div className="back">
-        <div className="prize-details text-[#D6AE7D]   ">
-          <h3>First Prize Details</h3>
-          <p>More detailed description of the prize...</p>
-          <h3>First Prize Details</h3>
-          <p>More detailed description of the prize...</p>
-          <h3>First Prize Details</h3>
-          <p>More detailed description of the prize...</p>
-          <h3>First Prize Details</h3>
-          <p>More detailed description of the prize...</p>
+        <div className="prize-details text-[#D6AE7D] px-2 ">
+          <h3>
+            Cash Prize for {title} Prize: INR {prize}{" "}
+          </h3>
+          <p> {details1} </p>
+          <p> {details2} </p>
+          <p>Swags Kit and Vouchers from Physics Wallah</p>
         </div>
         <button className="close-button rounded-xl " onClick={handleFlip}>
           Go Back
