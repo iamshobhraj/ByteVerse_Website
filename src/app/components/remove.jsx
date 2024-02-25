@@ -1,8 +1,7 @@
 "use client";
-import { Tabs } from "./ui/tabs";
 import * as React from "react";
 import Image from "next/image";
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
+import { Card, CardContent, CardHeader, CardTitle, Tabs } from "./ui/card";
 import {
   Carousel,
   CarouselContent,
@@ -22,10 +21,30 @@ import teams from "./teams.json";
 import judges from "./judges.json";
 import Autoplay from "embla-carousel-autoplay";
 
+const MemoizedCarouselItem = React.memo(CarouselItem);
 
-const Carousl = ({listt}) => {
+export default function Teams() {
+  const [listt, setListt] = React.useState(teams.Leads);
+
+  const handlenav = React.useCallback(async (value) => {
+    let filteredTeams;
+    try {
+      const allTeams = Object.values(teams).flat();
+      filteredTeams = allTeams.filter((team) => {
+        return team.group === value;
+      });
+    } catch (error) {
+      console.log(error);
+    } finally {
+      setListt(filteredTeams);
+    }
+  }, [teams]);
+
   return (
-    <Carousel
+    <div className="flex flex-col items-center h-fit gap-6 team-grad pb-20 md:pt-0 pt-20">
+      <Image src={teamKnife} className="" style={{ scale: "80%" }} />
+      <Tabs handlenav={handlenav} />
+      <Carousel
         type="teams"
         plugins={[
           Autoplay({
@@ -37,11 +56,11 @@ const Carousl = ({listt}) => {
           align: "start",
           loop: true,
         }}
-        className="w-5/6 h-96"
+        className="w-5/6"
       >
         <CarouselContent>
           {listt.map((item, index) => (
-            <CarouselItem
+            <MemoizedCarouselItem
               key={index}
               className={`basis-1/2 sm:basis-1/3 lg:pl-6 pl-1 relative  ${"team" + index}`}
             >
@@ -101,91 +120,13 @@ const Carousl = ({listt}) => {
                   {item.designation}
                 </CardTitle>
               </div>
-            </CarouselItem>
+            </MemoizedCarouselItem>
           ))}
         </CarouselContent>
 
         <CarouselPrevious variant="teams" />
         <CarouselNext variant="teams" />
       </Carousel>
-    // <Image
-    //   src="/test.png"
-    //   alt="dummy image"
-    //   width="1000"
-    //   height="1000"
-    //   className="object-cover object-left-top h-[60%]  md:h-[90%] absolute -bottom-10 inset-x-0 w-[90%] rounded-xl mx-auto"
-    // />
-  )
-}
-export default function Teams() {
-  const tabs = [
-    {
-      title: "Leads",
-      value: "leads",
-      content: (
-        <div className="flex flex-col items-center w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Leads</p>
-          <Carousl listt={teams.Leads} />
-        </div>
-      ),
-    },
-    {
-      title: "Web",
-      value: "Web",
-      content: (
-        <div className="flex flex-col items-center w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Web</p>
-          <Carousl listt={teams.Web} />
-        </div>
-      ),
-    },
-    {
-      title: "Outreach",
-      value: "outreach",
-      content: (
-        <div className="flex flex-col items-center w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Outreach</p>
-          <Carousl listt={teams.Outreach} />
-        </div>
-      ),
-    },
-    {
-      title: "Design",
-      value: "design",
-      content: (
-        <div className="flex flex-col items-center w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Design</p>
-          <Carousl listt={teams.Design} />
-        </div>
-      ),
-    },
-    {
-      title: "Event",
-      value: "event",
-      content: (
-        <div className="flex flex-col items-center w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Event</p>
-          <Carousl listt={teams.Event} />
-        </div>
-      ),
-    },
-    {
-      title: "Marketing",
-      value: "marketing",
-      content: (
-        <div className="flex flex-col items-center w-full overflow-hidden relative h-full rounded-2xl p-10 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
-          <p>Marketing</p>
-          <Carousl listt={teams.Marketing} />
-        </div>
-      ),
-    },
-  ];
-
-  return (
-    <div className="h-[60rem] [perspective:1000px] relative b flex flex-col team-grad items-center justify-center">
-      <Image src={teamKnife} className="" style={{ scale: "80%" }} />
-      <Tabs tabs={tabs} />
     </div>
   );
 }
-
