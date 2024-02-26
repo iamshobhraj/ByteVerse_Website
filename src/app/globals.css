@@ -4,6 +4,7 @@
  
 @layer base {
   :root {
+    ::-webkit-scrollbar {display:none;};
     --foreground-rgb: 0, 0, 0;
     --background-start-rgb: 214, 219, 220;
     --background-end-rgb: 255, 255, 255;
@@ -148,3 +149,12 @@ body {
   ::-webkit-scrollbar {display:none;}
 }
 
+.no-visible-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  -webkit-overflow-scrolling: touch;
+}
+ 
+.no-visible-scrollbar::-webkit-scrollbar {
+  display: none;
+}
