@@ -70,6 +70,21 @@
             "link":"https://interviewbuddy.net/",
             "hCheck":true
         }
+    ],
+    "education-sponsors":[
+        {
+            "company":"PW",
+            "url":"/sponsors/subEventSponsors/pw.png",
+            "link":"https://www.echo3d.co/",
+            "hCheck":false
+        }
+    ],
+    "certficate-sponsors":[
+        {
+            "company":"ECHO-3D",
+            "url":"/sponsors/subEventSponsors/gmc.png",
+            "link":"https://www.echo3d.co/",
+            "hCheck":true
+        }
     ]
-    
 }

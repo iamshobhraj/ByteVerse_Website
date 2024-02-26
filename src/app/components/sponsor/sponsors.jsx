@@ -10,7 +10,7 @@ const Sponsors = () => {
       <div id="sponsors" className="relative">
         <Image
           src={bg}
-          className="absolute  lg:top-[-15rem]  top-[0rem] right-[3rem]  scale-[1.16] sm:scale-[1.13] md:scale-[1.11] lg:scale-[1.06] w-[100vw] "
+          className="absolute lg:top-[-13rem]  top-[0rem] right-[3rem] scale-[1.16] sm:scale-[1.13] md:scale-[1.11] lg:scale-[1.06] w-[100vw] "
           style={{ zIndex: "1" }}
         ></Image>
         <div
@@ -23,11 +23,10 @@ const Sponsors = () => {
             className=" mt-36"
             style={{ scale: "80%", zIndex: "10" }}
           />
-          <Category 
-            title="TITLE SPONSORS" 
-            items={slist["title-sponsors"]} 
+          <Category
+            title="TITLE SPONSORS"
+            items={slist["title-sponsors"]}
             paperRollUrl="/byteverse/sponsor/title-sponsor.svg"
-
           />
           <Category
             title="ASSOCIATE SPONSORS"
@@ -38,6 +37,16 @@ const Sponsors = () => {
             title="SUBEVENT SPONSORS"
             items={slist["sub-event-sponsors"]}
             paperRollUrl="/byteverse/sponsor/subevent-sponsor.svg"
+          />
+          <Category
+            title="EDUCATION SPONSORS"
+            items={slist["education-sponsors"]}
+            paperRollUrl="/sponsors/otherSponsors/g1.svg"
+          />
+          <Category
+            title="CERTIFICATE SPONSORS"
+            items={slist["certficate-sponsors"]}
+            paperRollUrl="/sponsors/otherSponsors/g2.svg"
           />
         </div>
       </div>
