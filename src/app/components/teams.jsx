@@ -129,7 +129,7 @@ export default function Teams() {
       title: "Leads",
       value: "leads",
       content: (
-        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-b from-[#520101] via-[#FF2020] to-[#520101]">
           <p>Leads</p>
           <Carousl listt={teams.Leads} />
         </div>
@@ -139,7 +139,7 @@ export default function Teams() {
       title: "Web",
       value: "Web",
       content: (
-        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-b from-[#520101] to-[#FF2020]">
           <p>Web</p>
           <Carousl listt={teams.Web} />
         </div>
@@ -149,7 +149,7 @@ export default function Teams() {
       title: "Outreach",
       value: "outreach",
       content: (
-        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-b from-[#520101] to-[#FF2020]">
           <p>Outreach</p>
           <Carousl listt={teams.Outreach} />
         </div>
@@ -159,7 +159,7 @@ export default function Teams() {
       title: "Design",
       value: "design",
       content: (
-        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-b from-[#520101] to-[#FF2020]">
           <p>Design</p>
           <Carousl listt={teams.Design} />
         </div>
@@ -169,7 +169,7 @@ export default function Teams() {
       title: "Event",
       value: "event",
       content: (
-        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-b from-[#520101] to-[#FF2020]">
           <p>Event</p>
           <Carousl listt={teams.Event} />
         </div>
@@ -179,7 +179,7 @@ export default function Teams() {
       title: "Marketing",
       value: "marketing",
       content: (
-        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-br from-purple-700 to-violet-900">
+        <div className="flex flex-col gap-6 items-center w-full overflow-hidden relative h-1/2 md:h-fit rounded-2xl py-6 text-xl md:text-4xl font-bold text-white bg-gradient-to-b from-[#520101] to-[#FF2020]">
           <p>Marketing</p>
           <Carousl listt={teams.Marketing} />
         </div>
