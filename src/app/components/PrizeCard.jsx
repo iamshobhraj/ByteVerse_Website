@@ -27,7 +27,7 @@ const PrizeCard = ({ image, padding, title, prize, details1, details2 }) => {
         </div>
         <div className="prize-description pt-2 text-[#D6AE7D] flex items-center flex-col">
           <h3 className="text-center text-2xl"> {title} Prize</h3>
-          <li className="text-center">Description of the prize goes here.</li>
+          <li className="text-center">INR {prize}</li>
         </div>
         <button className="read-more-button rounded-xl " onClick={handleFlip}>
           Read More

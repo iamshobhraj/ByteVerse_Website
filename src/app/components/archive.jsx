@@ -41,7 +41,7 @@ const Archive = () => {
           </p>
         </div>
         <div className="bg-[#541E1E66] sm:w-3/5 md:w-1/3 h-40 rounded-xl flex flex-col justify-center my-auto shadow-md items-center md:items-start shadow-[#ffe1683c] px-4 mt-3">
-        <CountUp number={600} />
+        <CountUp number={1800} />
           <p className="text-2xl sm:mt-1 md:text-xl md:mt-3 lg:text-2xl font-semibold">
             Participants
           </p>

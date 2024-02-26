@@ -85,7 +85,7 @@ const Prizes = () => {
         </div>
       </div>
       <div className="h-full w-full relative insert-0 top-[-60rem]">
-        <div className=" z-0 absolute top-[-52rem] flex justify-center lg:justify-start items-center">
+        <div className=" z-0 absolute top-[-48rem] flex justify-center lg:justify-start items-center">
           <Image
             src={"/prizes/ninja.png"}
             height={280}
@@ -93,7 +93,7 @@ const Prizes = () => {
             style={{}}
           />
         </div>
-        <div className="  lg: absolute w-full z-0  top-[-67rem]">
+        <div className="  lg: absolute w-full z-0  top-[-60rem]">
           <div className="w-full h-full lg:flex justify-end hidden">
             <Image
               src={"/prizes/casttle.svg"}
