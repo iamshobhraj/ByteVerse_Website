@@ -33,13 +33,12 @@ export default function HomeNavbar() {
           </ScrollLink>
         </li>
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
-          <ScrollLink
+          <Link
           href="/Themes"
-            to="themes"
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
             Themes
-          </ScrollLink>
+          </Link>
         </li>
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
