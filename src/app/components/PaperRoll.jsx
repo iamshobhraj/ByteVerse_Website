@@ -67,19 +67,6 @@ const PaperRoll = () => {
               RULEBOOK
             </a>
           </Link>
-          {/* <div className="grid sm:grid-cols-2 md:grid-cols-3">
-            <div className="py-4 pt-0">Quality Education</div>
-            <div className="py-4 pt-0">Food Quality and Hunger</div>
-            <div className="py-4 pt-0">Cybersecurity</div>
-            <div className="py-4 pt-0">Healthcare and Medical</div>
-            <div className="py-4 pt-0">Finance</div>
-            <div className="py-4 pt-0">Sustainable Technology</div>
-            <div className="py-4 pt-0">Law and Justice</div>
-            <div className="py-4 pt-0">Community Building</div>
-            <div className="py-4 pt-0">Disaster Management</div>
-            <div className="py-4 pt-0">Space and Astrophysics</div>
-            <div className="py-4 pt-0">Open Innovation</div>
-          </div> */}
         </div>
       </div>
     </section>

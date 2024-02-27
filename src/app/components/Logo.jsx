@@ -59,7 +59,7 @@ export default function Logo() {
       <motion.div
         initial={{ y: -800 }}
         animate={{ y: 50 }}
-        transition={{ duration: 1, ease: "easeOut", delay: 7 }}
+        transition={{ duration: 1, ease: "easeOut", delay: 5 }}
         className="absolute bg-sun-gradient-radial rounded-full md:-mt-16 -mt-36 lg:p-20 md:p-10 p-0"
       >
         <Image

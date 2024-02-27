@@ -55,7 +55,7 @@ export default function Hero() {
       <motion.div
         initial={{ y: 100 }}
         animate={{ y: [100, -20, 0] }}
-        transition={{ duration: 0.6, delay: 4.9, ease: "easeOut" }}
+        transition={{ duration: 0.6, delay: 4, ease: "easeOut" }}
         className="md:-translate-y-2 -translate-y-20 w-5/6 flex flex-col items-center justify-center gap-5 absolute z-50"
       >
         <Logo />
