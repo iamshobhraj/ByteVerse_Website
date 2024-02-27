@@ -20,21 +20,6 @@ export default function Body() {
           data-button-theme="dark"
           style={{ height: "44px", width: "312px" }}
         ></div>
-        {/* <a
-          href="path to the file"
-          download
-          className="p-3 text-black font-semibold font-japanese text-xl md:text-2xl"
-          style={{
-            backgroundImage: `url(${PaperRoll.src})`,
-            width: "fit",
-            height: "100%",
-            backgroundPosition: "center",
-            backgroundSize: "cover",
-            backgroundRepeat: "no-repeat",
-          }}
-        >
-          RULEBOOK
-        </a> */}
       </div>
     </motion.div>
   );

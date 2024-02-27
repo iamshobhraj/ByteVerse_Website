@@ -23,7 +23,7 @@ const TimelineNavigation = () => {
       <motion.div
         initial={{ y: -200 }}
         animate={{ y: 0 }}
-        transition={{ duration: 1.5, delay: 6 ,ease:"easeOut"}}
+        transition={{ duration: 1.5, delay: 3 ,ease:"easeOut"}}
         className="w-full flex top-0 mx-6 z-[100] items-center justify-center fixed">
         <div hidden={!isOpen} className="h-[140vh] w-[100vw] fixed top-0 bg-[#54191962]" style={{zIndex:"110"}}  >
           <TimelineSidebar toggle={toggle} open={isOpen}/>
