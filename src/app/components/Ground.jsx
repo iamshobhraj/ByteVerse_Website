@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import { motion } from "framer-motion";
 
@@ -10,10 +10,11 @@ import base from "@/../public/byteverse/hero/ground.svg";
 export default function Ground() {
   return (
     <motion.div
-      initial={{ scale: 3, }}
+      initial={{ scale: 3 }}
       animate={{ scale: 1.02 }}
-      transition={{ duration: 0.8, delay: 5, type: 'spring', bounce: 0.15 }}
-      className="flex flex-col w-full absolute bottom-0 right-0 justify-center z-10 -space-y-8 md:-mb-12 mb-0">
+      transition={{ duration: 0.8, delay: 5, type: "spring", bounce: 0.15 }}
+      className="flex flex-col w-full absolute bottom-0 right-0 justify-center z-10 -space-y-8 md:-mb-12 mb-0"
+    >
       <div className="flex justify-between w-screen items-end xl:px-24 lg:px-12 px-4 ">
         <Image
           alt="ninja"
