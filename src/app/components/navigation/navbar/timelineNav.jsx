@@ -32,10 +32,10 @@ export default function TimelineNavbar() {
         </li>
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">
           <Link
-            href="/#about"
+            href="/Themes"
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-75"
           >
-            About Us
+            Themes
           </Link>
         </li>
         <li className="md:hover:text-white/80 group transition-all cursor-pointer">

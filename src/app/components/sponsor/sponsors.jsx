@@ -7,10 +7,10 @@ import bg from "@/../public/byteverse/bgsponsor.svg";
 const Sponsors = () => {
   return (
     <>
-      <div id="sponsors" className="relative">
+      <div id="sponsors" className="relative overflow-hidden">
         <Image
           src={bg}
-          className="absolute lg:top-[-13rem]  top-[0rem] right-[3rem] scale-[1.16] sm:scale-[1.13] md:scale-[1.11] lg:scale-[1.06] w-[100vw] "
+          className="absolute lg:top-[-13rem]  top-[0rem] scale-[1.16] sm:scale-[1.13] md:scale-[1.11] lg:scale-[1.06] w-[100vw] "
           style={{ zIndex: "1" }}
         ></Image>
         <div
