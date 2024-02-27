@@ -25,6 +25,12 @@
             "url":"/sponsors/titleSponsors/ethindia-logo.png",
             "link":"https://ethindia.co/",
             "hCheck":true
+        },
+        {
+            "company":"PWSkills",
+            "url":"/sponsors/associateSponsors/pwskills.webp",
+            "link":"https://www.echo3d.co/",
+            "hCheck":false
         }
     ],
     "sub-event-sponsors":[
@@ -72,12 +78,7 @@
         }
     ],
     "education-sponsors":[
-        {
-            "company":"PW",
-            "url":"/sponsors/subEventSponsors/pw.png",
-            "link":"https://www.echo3d.co/",
-            "hCheck":false
-        }
+        
     ],
     "certficate-sponsors":[
         {

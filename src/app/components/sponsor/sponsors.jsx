@@ -39,11 +39,6 @@ const Sponsors = () => {
             paperRollUrl="/byteverse/sponsor/subevent-sponsor.svg"
           />
           <Category
-            title="EDUCATION SPONSORS"
-            items={slist["education-sponsors"]}
-            paperRollUrl="/sponsors/otherSponsors/g1.svg"
-          />
-          <Category
             title="CERTIFICATE SPONSORS"
             items={slist["certficate-sponsors"]}
             paperRollUrl="/sponsors/otherSponsors/g2.svg"
