@@ -24,7 +24,7 @@ const Prizes = () => {
 
           <div>
             {/* Show this div on small screens */}
-            <div className=" pt-10 flex px-10 flex-wrap justify-center items-center md:gap-6 gap-10  lg:hidden ">
+            <div className="pt-10 flex px-10 flex-wrap justify-center items-center md:gap-6 gap-10  lg:hidden ">
               <PrizeCard
                 image="/prizes/Gold trophy.png"
                 padding="20"
@@ -85,7 +85,8 @@ const Prizes = () => {
         </div>
       </div>
       <div className="h-full w-full relative insert-0 top-[-60rem]">
-        <div className=" z-0 absolute top-[-48rem] flex justify-center lg:justify-start items-center">
+        <div className="z-0 absolute left-0 right-0 h-[26rem] top-[-54rem] md:top-[-26rem] lg:top-[-20rem] xl:top-[-32rem] bg-gradient-to-b from-[#4a000000] to-black"></div>
+        <div className=" z-0 absolute top-[-68rem] md:top[-40rem] lg:top-[-48rem] flex justify-center lg:justify-start items-center">
           <Image
             src={"/prizes/ninja.png"}
             height={280}
