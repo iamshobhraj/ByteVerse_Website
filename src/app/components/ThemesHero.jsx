@@ -6,12 +6,14 @@ import TimelineNavigation from "./navigation/TimelineNav";
 import Image from "next/image";
 import Ground from "./groundTimeline";
 import Baadal from "./Silverlines";
+
 import bg1 from "@/../public/byteverse/hero/hero-background.svg";
 import bg2 from "@/../public/byteverse/hero/Rectangle.svg";
 import spear from "@/../public/byteverse/spear.svg";
 import sun from "@/../public/byteverse/hero/sun.svg";
+import themelogo from "@/../public/byteverse/themelogo.svg";
 
-export default function TimelineHero() {
+export default function ThemesHero() {
   return (
     <main
       id="home"
@@ -63,7 +65,13 @@ export default function TimelineHero() {
           transition={{ duration: 0.6, type: "spring", delay: 0.2 }}
           className="uppercase font-japanese absolute lg:text-8xl text-6xl md:mb-12 mb-32"
         >
-          Timeline
+            <Image
+            alt="logo"
+            src={themelogo}
+            quality={100}
+            className="scale-[0.6]"
+            />
+
         </motion.h1>
         <motion.div
           initial={{ y: 800, opacity: 0 }}
