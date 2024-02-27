@@ -11,7 +11,7 @@ import baadal2 from "@/../public/byteverse/hero/baadal2.svg";
 
 const ThemePage = () => {
   return (
-    <main id="home" className="bg-[#720D0D] absolute">
+    <main id="themes" className="bg-[#720D0D] absolute">
       <ThemesHero />
       <div
         style={{

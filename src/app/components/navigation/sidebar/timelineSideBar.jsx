@@ -56,11 +56,11 @@ export default function TimelineSidebar({ open, toggle }) {
           className="md:hover:text-white/80 group transition-all cursor-pointer"
         >
           <Link
-            href="/#about"
+            href="/Themes"
             onClick={toggle}
             className="md:group-hover:border-white border-transparent border-b-2 pb-1 px-1 transition-all duration-300"
           >
-            About Us
+            Themes
           </Link>
         </motion.li>
         <motion.li
