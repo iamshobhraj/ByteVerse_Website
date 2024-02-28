@@ -1,6 +1,7 @@
 import Image from "next/image";
 import React from "react";
 import PrizeCard from "./PrizeCard";
+import AddtionalCard from "./AddtionalCard";
 
 const Prizes = () => {
   return (
@@ -59,7 +60,7 @@ const Prizes = () => {
                 title="Second"
                 prize="8000"
                 details1="One-way system drivers, mock interviews with unlimited practice by Interview Buddy."
-                details2="One year of subscription to  Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
+                details2="One year of subscription to  Wolfram |One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
               />
               <div className="md:mb-32 md:mx-20">
                 <PrizeCard
@@ -94,7 +95,7 @@ const Prizes = () => {
             style={{}}
           />
         </div>
-        <div className="  lg: absolute w-full z-0  top-[-60rem]">
+        <div className="  lg: absolute w-full z-0  top-[-67rem]">
           <div className="w-full h-full lg:flex justify-end hidden">
             <Image
               src={"/prizes/casttle.svg"}
@@ -103,6 +104,60 @@ const Prizes = () => {
               style={{}}
             />
           </div>
+        </div>
+      </div>
+
+      <div>
+        {/* Show this div on small screens */}
+        <div className=" pt-10 flex px-10 flex-wrap justify-center items-center md:gap-6 gap-10  lg:hidden ">
+          <AddtionalCard
+            image="/prizes/Frame 1438.png"
+            padding="20"
+            title="BEST ALL-GIRLS TEAM"
+            prize="5000"
+            details1="Free access to TeachNook courses worth INR. 5,000, to every member of the team."
+            details2="One year of subscription to  Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
+          />
+          <AddtionalCard
+            image="/prizes/Frame 1583.png"
+            padding="20"
+            title="BEST 1ST YEAR TEAM"
+            prize="3000"
+            details1="Free access to TeachNook courses worth INR. 5,000, to every member of the team."
+          />
+          <AddtionalCard
+            image="/prizes/Group 1443.png"
+            padding="20"
+            title="TOP 20 TEAMS"
+            isTop20={true}
+            details1="Free access to TeachNook courses worth INR. 5,000, to every member of the team."
+          />
+        </div>
+
+        {/* Show this div on medium and large screens */}
+        <div className="w-screen  h-screen   p-10   flex-col justify-center items-center  hidden  lg:flex lg:flex-row lg:justify-evenly lg:items-center ">
+          <AddtionalCard
+            image="/prizes/Frame 1438.png"
+            padding="20"
+            title="BEST ALL-GIRLS TEAM"
+            prize="5000"
+            details1="Free access to TeachNook courses worth INR. 5,000, to every member of the team."
+            details2="One year of subscription to  Wolfram|One Personal Edition plus a one-year subscription to Wolfram|Alpha Pro."
+          />
+          <AddtionalCard
+            image="/prizes/Frame 1583.png"
+            padding="20"
+            title="BEST 1ST YEAR TEAM"
+            prize="3000"
+            details1="Free access to TeachNook courses worth INR. 5,000, to every member of the team."
+          />
+          <AddtionalCard
+            image="/prizes/Group 1443.png"
+            padding="20"
+            title="TOP 20 TEAMS"
+            isTop20={true}
+            details1="Free access to TeachNook courses worth INR. 5,000, to every member of the team."
+          />
         </div>
       </div>
     </div>
