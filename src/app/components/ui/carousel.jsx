@@ -40,19 +40,8 @@ const Carousel = React.forwardRef(
       },
       plugins
     );
-
-    const logSlidesInView = useCallback((api) => {
-      if (type == "teams") {
-        console.log(api.slidesInView());
-        console.log(api.slideNodes());
-      }
-    }, []);
-    useEffect(() => {
-      if (api) api.on("slidesInView", logSlidesInView);
-    }, [api, logSlidesInView]);
     const [canScrollPrev, setCanScrollPrev] = React.useState(false);
     const [canScrollNext, setCanScrollNext] = React.useState(false);
-
     const onSelect = React.useCallback((api) => {
       if (!api) {
         return;

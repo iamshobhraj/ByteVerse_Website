@@ -127,7 +127,7 @@
   background: linear-gradient(180deg,#4A0000 0%,#4A0000 5%  ,#000000 7% ,#5d0101 40%);
 }
 .footer-grad{
-  background:linear-gradient(180deg, #720d0d 0%, #68000010 30%), url('/byteverse/footer/footerbg.png') ;
+  background:linear-gradient(180deg, #720d0d 0%, #68000010 30%), url('/byteverse/footer/footerbg.webp') ;
   background-size: cover;
   background-repeat: no-repeat;
 }

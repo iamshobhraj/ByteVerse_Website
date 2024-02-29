@@ -9,6 +9,7 @@ export default async function ImageGrid({ folder, col }) {
         <div key={img.src}>
           <div className="card flex flex-col gap-2 bg-[#541E1E4A] p-2 rounded-2xl shadow-lg shadow-[#FFCC47]/[0.14] hover:scale-110 transition duration-500">
             <Image 
+              alt='icons'
               src={img.src}
               width={200}
               height={200}

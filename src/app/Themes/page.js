@@ -31,8 +31,8 @@ const ThemePage = () => {
         <SideTracks />
       </div>
       <div className="p-4 items-center flex justify-center flex-col overflow-hidden">
-        <Image src={baadal1} className=" z-10 md:-translate-x-64 translate-y-28" />
-        <Image src={baadal2} className=" z-10 md:translate-x-48 translate-y-28" />
+        <Image src={baadal1} alt="cloud" className=" z-10 md:-translate-x-64 translate-y-28" />
+        <Image src={baadal2} alt="cloud" className=" z-10 md:translate-x-48 translate-y-28" />
       </div>
 
       <FooterSection />

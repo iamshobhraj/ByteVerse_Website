@@ -72,7 +72,7 @@ const FAQ = () => {
       }}
     >
       <div className="absolute inset-0 z-0 flex justify-center items-center">
-        <Image src={"/byteverse/sword.png"} height={500} width={500} />
+        <Image src={"/byteverse/sword.webp"} alt="sword" height={500} width={500} />
       </div>
       <div className="z-10 w-full h-auto flex flex-col lg:flex-row justify-evenly items-center md:px-48 p-4">
         <div className="w-full py-4  md:w-[600px]  flex flex-col justify-center items-center mb-6 md:mb-0 text-[#DEB889]  ">

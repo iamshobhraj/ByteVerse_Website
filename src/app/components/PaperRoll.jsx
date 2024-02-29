@@ -3,6 +3,7 @@ import Link from "next/link";
 import React from "react";
 import { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+import Image from "next/image";
 
 const PaperRoll = () => {
   const [rotationAngle, setRotationAngle] = useState(0);
@@ -21,10 +22,13 @@ const PaperRoll = () => {
   return (
     <section id="rules" className="py-8 bg-[#4A0000] flex justify-center">
       <div className=" py-0 lg:mt-32 lg:py-24 pb-20 lg:pb-40 flex flex-col align-middle w-[90vw] ">
-        <img
+        <Image
+          width={400}
+          height={400}
+          alt="paper roll"
           src="/PaperRoll.svg"
           className="absolute w-[85%] left-1/2 -translate-x-1/2 z-0 hidden xl:block"
-        ></img>
+        ></Image>
         <div className="flex flex-row justify-center px-6 md:px-24 lg:px-60 pt-[6rem]">
           <motion.img
             src="/byteverse/weapon.svg"
@@ -37,10 +41,13 @@ const PaperRoll = () => {
             animate={{ rotate: rotationAngle }}
             transition={{ loop: Infinity, duration: 0.1 }}
           />
-          <img
-            src="/Byteverse24_Logo2.png"
+          <Image
+              width={600}
+              height={600}
+            src="/Byteverse24_Logo2.webp"
             className="z-10 lg:m-auto px-10 opacity-60"
-          ></img>
+            alt="byteverse logo"
+          ></Image>
           <motion.img
             src="/byteverse/weapon.svg"
             className="hidden lg:block w-32 m-auto"

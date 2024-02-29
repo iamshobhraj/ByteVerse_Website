@@ -3,7 +3,7 @@
       {
         "id":  45,
         "name": "Rakshit Sinha",
-        "photo": "./organizers/rakshit_sinha.webp",
+        "photo": "/organizers/rakshit_sinha.webp",
         "group": "Leads",
         "designation": "Lead Organizer",
         "linkedin": "https://www.linkedin.com/in/sinha-rakshit",
@@ -12,7 +12,7 @@
       {
         "id":  1,
         "name": "Simranpreet Kaur",
-        "photo": "./organizers/simranpreet_kaur.webp",
+        "photo": "/organizers/simranpreet_kaur.webp",
         "group": "Leads",
         "designation": "Lead Organizer",
         "linkedin": "https://www.linkedin.com/in/simranpreet-kaur-8b669b238",
@@ -21,7 +21,7 @@
       {
         "id":  2,
         "name": "Sameer Choudhary",
-        "photo": "./organizers/sameer_choudhary.webp",
+        "photo": "/organizers/sameer_choudhary.webp",
         "group": "Leads",
         "designation": "Co-Lead Organizer",
         "linkedin": "https://www.linkedin.com/in/sachin-kumar-9916a9223",
@@ -31,7 +31,7 @@
       {
         "id":  3,
         "name": "Devatraj Bhattacharjee",
-        "photo": "./organizers/devatraj.webp",
+        "photo": "/organizers/devatraj.webp",
         "group": "Leads",
         "designation": "Co-Lead Organizer",
         "linkedin": "https://www.linkedin.com/in/devatraj-bhattacharya-6a22611b4?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -40,7 +40,7 @@
       {
         "id": 4,
         "name":"Shrey Kashyap",
-        "photo": "./organizers/shrey_kashyap.webp",
+        "photo": "/organizers/shrey_kashyap.webp",
         "group": "Leads",
         "designation": "Treasurer",
         "linkedin": "https://www.linkedin.com/in/shrey-kashyap-a47b67240?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -48,7 +48,7 @@
       {
         "id": 5,
         "name": "Anushka Dubey",
-        "photo": "./organizers/anushka_dubey.webp",
+        "photo": "/organizers/anushka_dubey.webp",
         "group": "Leads",
         "designation": "Secretary",
         "linkedin": "https://linkedin.com/in/anushka-d-751b20229/",
@@ -58,7 +58,7 @@
       {
         "id": 6,
         "name":"Ritwik Singh",
-        "photo": "./organizers/ritwik_singh.webp",
+        "photo": "/organizers/ritwik_singh.webp",
         "group": "Leads",
         "designation": "Technical Lead",
         "linkedin": "https://www.linkedin.com/in/ritwik-singh-a0b008239/",
@@ -67,7 +67,7 @@
       {
         "id": 7,
         "name": "Rani Kumari",
-        "photo": "./organizers/rani_kumari.webp",
+        "photo": "/organizers/rani_kumari.webp",
         "group": "Leads",
         "designation": "Outreach Lead",
         "linkedin": "https://www.linkedin.com/in/rani-choudhary-a74915229/",
@@ -77,7 +77,7 @@
       {
         "id": 8,
         "name": "Sachin Kumar",
-        "photo": "./organizers/sachin_kumar.webp",
+        "photo": "/organizers/sachin_kumar.webp",
         "group": "Leads",
         "designation": "Outreach Co-Lead",
         "linkedin": "https://www.linkedin.com/in/sachin-kumar-9916a9223",
@@ -86,14 +86,14 @@
       {
         "id": 9,
         "name":"Ifra Ali",
-        "photo": "./organizers/ifra_ali.webp",
+        "photo": "/organizers/ifra_ali.webp",
         "group": "Leads",
         "designation": "Marketing & Event Management Lead"
       },
       {
         "id": 10,
         "name": "Abhishek Agrahari",
-        "photo": "./organizers/abhishek.webp",
+        "photo": "/organizers/abhishek.webp",
         "group": "Leads",
         "designation": "Marketing Lead",
         "linkedin": "https://www.linkedin.com/in/er-abhishek",
@@ -102,7 +102,7 @@
       {
         "id": 11,
         "name": "Anshu Gupta",
-        "photo": "./organizers/anshu_gupta.webp",
+        "photo": "/organizers/anshu_gupta.webp",
         "group": "Leads",
         "designation": "Social Media Lead",
         "linkedin": "https://www.linkedin.com/in/anshu-gupta-66519122a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -112,7 +112,7 @@
       {
         "id": 44,
         "name": "Komal Kumari",
-        "photo": "./organizers/komal_kumari.webp",
+        "photo": "/organizers/komal_kumari.webp",
         "group": "Leads",
         "designation": "Social Media Manager",
         "linkedin": "https://www.linkedin.com/in/komal-kumari-79234a258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -121,7 +121,7 @@
       {
         "id": 12,
         "name":"Divyansh Jain",
-        "photo": "./organizers/divyansh_jain.webp",
+        "photo": "/organizers/divyansh_jain.webp",
         "group": "Leads",
         "designation": "Mentorship Lead",
         "linkedin": "https://www.linkedin.com/in/divyansh-jain-2928b3228?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -130,7 +130,7 @@
       {
         "id": 14,
         "name": "Nisarg Patel",
-        "photo": "./organizers/nisarg_patel.webp",
+        "photo": "/organizers/nisarg_patel.webp",
         "group": "Leads",
         "designation": "Discord Lead",
         "linkedin": "https://www.linkedin.com/in/nisarg-patel-293454229/",
@@ -140,7 +140,7 @@
       {
         "id": 15,
         "name":"Ravi Ranjan",
-        "photo": "./organizers/ravi_ranjan.webp",
+        "photo": "/organizers/ravi_ranjan.webp",
         "group": "Leads",
         "designation": "Discipline Lead",
         "linkedin": "https://www.linkedin.com/in/ravi-ranjan-212674232?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -148,7 +148,7 @@
       {
         "id": 16,
         "name":"Rohan Choudhary",
-        "photo": "./organizers/rohan_choudhary.webp",
+        "photo": "/organizers/rohan_choudhary.webp",
         "group": "Leads",
         "designation": "Design Lead",
         "linkedin": "https://www.linkedin.com/in/rohan-kumar-choudhary-2ab819226",
@@ -157,7 +157,7 @@
       {
         "id": 17,
         "name": "Divyanshi Dixita",
-        "photo": "./organizers/divyanshi_dixita.webp",
+        "photo": "/organizers/divyanshi_dixita.webp",
         "group": "Leads",
         "designation": "Content Lead",
         "linkedin": "https://www.linkedin.com/in/divyanshi-dixita-314a0724b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -166,7 +166,7 @@
       {
         "id": 18,
         "name": "Garima Vijay",
-        "photo": "./organizers/garima_vijay.webp",
+        "photo": "/organizers/garima_vijay.webp",
         "group": "Leads",
         "designation": "Content Lead"
       }
@@ -175,7 +175,7 @@
       {
         "id": 19,
         "name": "Aditya Raj",
-        "photo": "./organizers/aditya_raj.webp",
+        "photo": "/organizers/aditya_raj.webp",
         "group": "Web",
         "designation": "Website Team Member",
         "linkedin": "https://www.linkedin.com/in/hexronus/",
@@ -184,7 +184,7 @@
       {
         "id": 20,
         "name": "Abhinav Singh",
-        "photo": "./organizers/abhinav_singh.webp",
+        "photo": "/organizers/abhinav_singh.webp",
         "group": "Web",
         "designation": "Website Team Member",
         "linkedin": "https://www.linkedin.com/in/abhinav-singh-15a4a7258/",
@@ -193,7 +193,7 @@
       {
         "id": 21,
         "name": "Divyansh Gupta",
-        "photo": "./organizers/divyansh_gupta.webp",
+        "photo": "/organizers/divyansh_gupta.webp",
         "group": "Web",
         "designation": "Website Team Member",
         "linkedin": "https://www.linkedin.com/in/divyansh-gupta-7a71b8250/",
@@ -203,7 +203,7 @@
       {
         "id": 22,
         "name": "Devendra Singh",
-        "photo": "./organizers/devendra_singh.webp",
+        "photo": "/organizers/devendra_singh.webp",
         "group": "Web",
         "designation": "Website Team Member",
         "linkedin": "https://www.linkedin.com/in/devendra-singh-ba1917257/",
@@ -213,7 +213,7 @@
       {
         "id": 23,
         "name": "Pranansh Singh",
-        "photo": "./organizers/pranansh_singh.webp",
+        "photo": "/organizers/pranansh_singh.webp",
         "group": "Web",
         "designation": "Website Team Member",
         "linkedin": "https://www.linkedin.com/in/pranansh-singh-9288a523b/",
@@ -223,7 +223,7 @@
       {
         "id": 22,
         "name": "Shobh Raj",
-        "photo": "./organizers/shobh_raj.webp",
+        "photo": "/organizers/shobh_raj.webp",
         "group": "Web",
         "designation": "Website Team Member",
         "linkedin": "https://www.linkedin.com/in/iamshobh/",
@@ -234,7 +234,7 @@
       {
         "id": 23,
         "name": "Shubham Tiwari",
-        "photo": "./organizers/shubham_tiwari.webp",
+        "photo": "/organizers/shubham_tiwari.webp",
         "group": "Outreach",
         "designation": "Outreach Manager",
         "linkedin": "https://www.linkedin.com/in/shubham-tiwari-966223253/",
@@ -244,7 +244,7 @@
       {
         "id": 24,
         "name": "Abdul Subhan",
-        "photo": "./organizers/abdul_subhan.webp",
+        "photo": "/organizers/abdul_subhan.webp",
         "group": "Outreach",
         "designation": "Outreach Manager",
         "linkedin": "https://www.linkedin.com/in/abdulsubhan12?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app",
@@ -253,7 +253,7 @@
       {
         "id": 25,
         "name": "Piyush Singh",
-        "photo": "./organizers/piyush_singh.webp",
+        "photo": "/organizers/piyush_singh.webp",
         "group": "Outreach",
         "designation": "Outreach Manager",
         "linkedin": "https://www.linkedin.com/in/piyush-singh-2a80ba253?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -262,7 +262,7 @@
       {
         "id": 26,
         "name": "Utkarsh Ranjan",
-        "photo": "./organizers/utkarsh_ranjan.webp",
+        "photo": "/organizers/utkarsh_ranjan.webp",
         "group": "Outreach",
         "designation": "Outreach Manager",
         "linkedin": "https://www.linkedin.com/in/utkarsh-ranjan-15b32b24b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -272,7 +272,7 @@
       {
         "id": 28,
         "name": "Sakshat Walishetti",
-        "photo": "./organizers/sakshat_walishetti.webp",
+        "photo": "/organizers/sakshat_walishetti.webp",
         "group": "Outreach",
         "designation": "Outreach Manager",
         "linkedin": "https://www.linkedin.com/in/sakshat-walishetti",
@@ -283,7 +283,7 @@
       {
         "id": 29,
         "name": "Siddharth Shukla",
-        "photo": "./organizers/siddharth_shukla.webp",
+        "photo": "/organizers/siddharth_shukla.webp",
         "group": "Event",
         "designation": "Event Management Co-Lead",
         "linkedin": "https://www.linkedin.com/in/siddharth-shukla-816702227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -292,7 +292,7 @@
       {
         "id": 30,
         "name": "Saurabh Kumar",
-        "photo": "./organizers/saurabh_kumar.webp",
+        "photo": "/organizers/saurabh_kumar.webp",
         "group": "Event",
         "designation": "Event Management Co-Lead",
         "linkedin": "https://www.linkedin.com/in/saurabhalp",
@@ -301,7 +301,7 @@
       {
         "id": 31,
         "name": "Mayank Harsh",
-        "photo": "./organizers/mayank_harsh.webp",
+        "photo": "/organizers/mayank_harsh.webp",
         "group": "Event",
         "designation": "Event Management Co-Lead",
         "linkedin": "https://www.linkedin.com/in/mayank-harsh-61704b278?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -312,7 +312,7 @@
       {
         "id": 32,
         "name": "Shreya Jha",
-        "photo": "./organizers/shreya_jha.webp",
+        "photo": "/organizers/shreya_jha.webp",
         "group": "Marketing",
         "designation": "Marketing Manager",
         "linkedin": "https://www.linkedin.com/in/shreya-jha-539255257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -321,7 +321,7 @@
       {
         "id": 33,
         "name": "Niharika Srivastava",
-        "photo": "./organizers/niharika_srivastava.webp",
+        "photo": "/organizers/niharika_srivastava.webp",
         "group": "Marketing",
         "designation": "Marketing Manager",
         "linkedin": "https://www.linkedin.com/in/niharika-srivastava-966668258?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -331,7 +331,7 @@
       {
         "id": 34,
         "name": "Divyansh Srivastava",
-        "photo": "./organizers/divyansh_srivastava.webp",
+        "photo": "/organizers/divyansh_srivastava.webp",
         "group": "Marketing",
         "designation": "Marketing Manager",
         "linkedin": "https://linkedin.com/in/srivas-divyansh",
@@ -340,7 +340,7 @@
       {
         "id": 35,
         "name": "Shradha Jha",
-        "photo": "./organizers/shradha_jha.webp",
+        "photo": "/organizers/shradha_jha.webp",
         "group": "Marketing",
         "designation": "Marketing Manager",
         "linkedin": "https://www.linkedin.com/in/shradha-jha-68797621b",
@@ -349,7 +349,7 @@
       {
         "id": 36,
         "name": "Manya Chandra",
-        "photo": "./organizers/manya_chandra.webp",
+        "photo": "/organizers/manya_chandra.webp",
         "group": "Marketing",
         "designation": "Marketing Manager",
         "linkedin": "http://linkedin.com/in/manyachandra8",
@@ -358,7 +358,7 @@
       {
         "id": 37,
         "name": "Raj Aarzoo Singh",
-        "photo": "./organizers/raj_aarzoo_singh.webp",
+        "photo": "/organizers/raj_aarzoo_singh.webp",
         "group": "Marketing",
         "designation": "Marketing Manager",
         "linkedin": "https://www.linkedin.com/in/aarzoo-singh-87414a265?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -366,7 +366,7 @@
       {
         "id": 38,
         "name": "Anjali Kumari",
-        "photo": "./organizers/anjali_kumari.webp",
+        "photo": "/organizers/anjali_kumari.webp",
         "group": "Marketing",
         "designation": "Marketing Manager",
         "linkedin": "https://www.linkedin.com/in/anjali-kumari-ak707"
@@ -374,7 +374,7 @@
       {
         "id": 39,
         "name": "Mitali Dixit",
-        "photo": "./organizers/mitali_dixit.webp",
+        "photo": "/organizers/mitali_dixit.webp",
         "group": "Marketing",
         "designation": "Marketing Manager",
         "linkedin": "https://www.linkedin.com/in/mitali-dixit-9b0570254?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -386,7 +386,7 @@
       {
         "id": 40,
         "name": "Dhruv Narayan Jaiswal",
-        "photo": "./organizers/dhruv_narayan_jaiswal.webp",
+        "photo": "/organizers/dhruv_narayan_jaiswal.webp",
         "group": "Design",
         "designation": "Design Co-Lead",
         "linkedin": "https://www.linkedin.com/in/dhruvjaiswal135/",
@@ -396,7 +396,7 @@
       {
         "id": 41,
         "name": "Nikhil Ranjan",
-        "photo": "./organizers/nikhil_ranjan.webp",
+        "photo": "/organizers/nikhil_ranjan.webp",
         "group": "Design",
         "designation": "Design Co-Lead",
         "linkedin": "https://www.linkedin.com/in/nikhil-ranjan-4a40ab257?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -405,7 +405,7 @@
       {
         "id": 42,
         "name": "Md. Arif",
-        "photo": "./organizers/md_arif.webp",
+        "photo": "/organizers/md_arif.webp",
         "group": "Design",
         "designation": "Design Coordinator",
         "linkedin": "https://www.linkedin.com/in/mohd-arif-3679b5255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
@@ -413,7 +413,7 @@
       {
         "id": 43,
         "name": "Kirtan Patidar",
-        "photo": "./organizers/kirtan_patidar.webp",
+        "photo": "/organizers/kirtan_patidar.webp",
         "group": "Design",
         "designation": "Design Coordinator",
         "linkedin": "https://www.linkedin.com/in/kirtan-patidar-632886285/"

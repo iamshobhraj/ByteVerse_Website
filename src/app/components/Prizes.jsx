@@ -14,7 +14,7 @@ const Prizes = () => {
       <div className=" inset-0 z-10 flex justify-center items-center">
         <div className="   flex flex-col justify-center items-center  z-10 lg:py-10  ">
           <Image
-            src="/prizes/prize.png"
+            src="/prizes/prize.webp"
             width={1100}
             height={380}
             draggable={false}
@@ -89,7 +89,7 @@ const Prizes = () => {
         <div className="z-0 absolute left-0 right-0 h-[26rem] top-[-54rem] md:top-[-26rem] lg:top-[-20rem] xl:top-[-32rem] bg-gradient-to-b from-[#4a000000] to-black"></div>
         <div className=" z-0 absolute top-[-68rem] md:top[-40rem] lg:top-[-48rem] flex justify-center lg:justify-start items-center">
           <Image
-            src={"/prizes/ninja.png"}
+            src={"/prizes/ninja.webp"}
             height={280}
             width={280}
             style={{}}
