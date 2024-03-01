@@ -31,9 +31,12 @@ const AboutUs = (props) => {
       <div className="flex flex-col gap-6 md:flex-row pt-3 lg:pt-16 mb-4 px:8 md:px-4 lg:px-20 xl:px-24">
         <div className="flex flex-col items-center mt-2 bg-[#441919cf] hover:shadow-md rounded-2xl py-4 md:py-8 mx-4">
           <div className="w-full md:w-1/4 mb-4 md:mb-0 h-24 md:h-28">
-            <img
+            <Image
+              width={300}
+              height={300}
               className="mx-auto -mt-10 md:mt-7  scale-[0.4] md:scale-[2] lg:scale-[1.6]"
-              src="/byteverse/hackkkk.png"
+              src="/byteverse/hackkkk.webp"
+              alt="hackslash logo"
             />
           </div>
           <div className="w-full px-4 lg:px-10">
@@ -64,9 +67,12 @@ const AboutUs = (props) => {
         </div>
         <div className="flex flex-col items-center mt-2 bg-[#441919cf] hover:shadow-md rounded-2xl py-4 md:py-8 mx-4">
           <div className="w-full md:w-1/4 mb-8 md:mb-0 h-24 md:h-28">
-            <img
+          <Image
+              width={400}
+              height={400}
               className="mx-auto  md:mt-12 lg:mt-12 scale-[0.6] md:scale-[2.6] lg:scale-[2.4]"
-              src="/byteverse/Gdsclogo.png"
+              src="/byteverse/Gdsclogo.webp"
+              alt="gdsc logo"
             />
           </div>
           <div className="w-full px-4  lg:px-10">
@@ -97,9 +103,12 @@ const AboutUs = (props) => {
         </div>
         <div className="flex flex-col items-center mt-2 bg-[#441919cf] hover:shadow-md rounded-2xl py-4 md:py-8 mx-4">
           <div className="w-full md:w-1/4 mb-8 md:mb-0 h-24 md:h-28">
-            <img
+            <Image
+              width={400}
+              height={400}
               className="mx-auto -mt-[30%] lg:mt-4 md:mt-7 md:scale-[1.14] scale-[0.24] lg:scale-[0.9]"
-              src="/byteverse/desco.png"
+              src="/byteverse/desco.webp"
+              alt="desco logo"
             />
           </div>
           <div className="w-full px-4  lg:px-10">

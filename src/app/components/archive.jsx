@@ -3,6 +3,7 @@ import React, { useState, useEffect, useRef } from "react";
 import Images from "./archiveImage";
 import "./App.css";
 import useScrollTriggeredCountUp from './useScrollTriggeredCountUp.jsx';
+import Image from "next/image";
 
 const CountUp = (props) => {
   const ref = useRef(null);
@@ -60,7 +61,9 @@ const Archive = () => {
           </p>
         </div>
         <div className="w-full md:w-7/12 bg-[#70363666] shadow-lg shadow-[#8484843c] rounded-2xl h-40 md:h-64 lg:h-96">
-          <img
+          <Image
+            width={400}
+            height={400}
             src={Images[currentImageIndex].src}
             alt={Images[currentImageIndex].alt}
             className="h-full w-full object-cover rounded-lg transition-opacity duration-1000"

@@ -49,7 +49,7 @@ const FooterSection = () => {
       )
       .then(
         (result) => {
-          console.log(result);
+          // console.log(result);
         },
         (error) => {
           console.log(error);

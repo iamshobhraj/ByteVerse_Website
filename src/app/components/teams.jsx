@@ -49,7 +49,9 @@ const Carousl = ({ listt }) => {
             <div className="p-1 flex w-full items-center justify-center">
               <Card className="rounded-full relative h-32 w-32 sm:h-40 sm:w-40 md:h-48 md:w-48 lg:size-64">
                 <CardContent className=" flex h-full relative overflow-hidden rounded-full border-[#C89E6D] border-solid border">
-                  <img
+                  <Image
+                    width={400}
+                    height={400}
                     src={item.photo}
                     alt={`teams`}
                     className="object-cover rounded-full h-full absolute scale-75 -right-6 md:-right-9"
@@ -189,7 +191,7 @@ export default function Teams() {
 
   return (
     <div className="h-[60rem] [perspective:1000px] relative b flex flex-col team-grad items-center justify-center pt-16 lg:pt-0">
-      <Image src={teamKnife} className="" style={{ scale: "80%" }} />
+      <Image src={teamKnife} className="" alt="sword" style={{ scale: "80%" }} />
       <Tabs tabs={tabs} />
     </div>
   );
