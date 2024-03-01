@@ -54,10 +54,12 @@ const Judges = () => {
                   <Card className="w-full h-full rounded-b-xl ">
                     <CardContent className="flex items-center justify-center md:w-full w-full h-96 flex-col ">
                       <div className="w-full sm:h-1/2 md:h-1/3 lg:h-1/2 h-[29%] overflow-hidden ">
-                        <img
+                        <Image
+                          width={300}
+                          height={300}
                           src={judge.url}
                           alt={`judge ${index}`}
-                          className="object-cover w-full object-top "
+                          className="object-cover w-full object-top"
                           style={{ zIndex: "10" }}
                         />
                       </div>
