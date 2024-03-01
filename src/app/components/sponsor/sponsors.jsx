@@ -12,6 +12,7 @@ const Sponsors = () => {
           src={bg}
           className="absolute lg:top-[-13rem]  top-[0rem] scale-[1.16] sm:scale-[1.13] md:scale-[1.11] lg:scale-[1.06] w-[100vw] "
           style={{ zIndex: "1" }}
+          alt="testing"
         ></Image>
         <div
           id="sponsors"
