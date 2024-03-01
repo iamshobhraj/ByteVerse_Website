@@ -113,7 +113,9 @@ const FooterSection = () => {
         <div className="lg:grid-cols-3 grid grid-row-3 h-[58vh]   ">
           <div className="flex lg:justify-end flex-col lg:items-start items-center lg:pl-7 lg:pb-5 lg:my-0 my-10">
             <div className="flex items-center ">
-              <img
+              <Image
+                height={50}
+                width={50}
                 src="/byteverse/footer/nitplogo.svg"
                 alt=""
                 className="md:h-16 h-12 "
@@ -130,29 +132,29 @@ const FooterSection = () => {
                 }
                 target="_blank"
               >
-                <img src={insta} className=" h-5 " />
+                <Image width={30} height={30} src={insta} className=" h-5 " />
               </Link>
               <Link href={"https://twitter.com/hackslash_nitp"} target="_blank">
-                <img src={twit} className="  h-5 " />
+                <Image width={30} height={30} src={twit} className="  h-5 " />
               </Link>
               <Link
                 href={"https://www.linkedin.com/company/hackslash/mycompany/"}
                 target="_blank"
               >
-                <img src={lin} className=" h-6 " />
+                <Image width={30} height={30} src={lin} className=" h-6 " />
               </Link>
               <Link
                 href={"https://www.youtube.com/@HackSlashDevelopersClub"}
                 target="_blank"
               >
-                <img src={yt} className=" h-5 " />
+                <Image width={30} height={30} src={yt} className=" h-5 " />
               </Link>
             </div>
           </div>
           <div className=" justify-self-center lg:self-end">
             <div className="flex gap-3 items-center mb-8  ">
-              <img src={cr} alt="" />
-              <img src={byteverse} alt="" className="h-8 lg:h-auto" />
+              <Image width={20} height={20}  src={cr} alt="" />
+              <Image width={120} height={120} src={byteverse} alt="" className="h-8 lg:h-auto" />
               <div className=" h-8 w-[2px]"></div>
               <div className="text-sm text-white ">NIT Patna 2024</div>
             </div>
@@ -160,7 +162,7 @@ const FooterSection = () => {
           <div className="flex  flex-col mt-5 lg:mt-0 items-center md:justify-end lg:items-end gap-6">
             <div className="flex flex-col gap-2 lg:mr-16    ">
               <div className="flex items-center gap-5 ">
-                <img src={discord} alt="" className="h-6" />
+                <Image width={30} height={30}  src={discord} alt="" className="h-6" />
                 <Link
                   href={"https://discord.gg/Es29vwFc"}
                   alt={"Discord Link"}
@@ -172,25 +174,25 @@ const FooterSection = () => {
                 </Link>
               </div>
               <div className="flex items-center gap-5">
-                <img src={terms} alt="" className="h-6" />
+                <Image width={30} height={30} src={terms} alt="" className="h-6" />
                 <div className="text-[10px] text-white ">
                   Terms and Conditions
                 </div>
               </div>
               <div className="flex items-center gap-5">
-                <img src={qr} alt="" className="h-6" />
+                <Image width={30} height={30} src={qr} alt="" className="h-6" />
                 <div className="text-[10px] text-white ">Code of Conduct</div>
               </div>
             </div>
             <div className="flex gap-4 mr-8">
               <div className="flex flex-col items-center">
-                <img src={hackslash} alt="" />
+                <Image width={100} height={100} src={hackslash} alt="" />
                 <div className="ml-6 text-[12px] text-neutral-400">
                   Hosted by
                 </div>
               </div>
               <div className="flex flex-col items-center">
-                <img src={desco} alt="" />
+                <Image width={30} height={30} src={desco} alt="" />
                 <div className="text-[12px] text-neutral-400">Designed by</div>
               </div>
             </div>
