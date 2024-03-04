@@ -15,7 +15,7 @@ let discord = "/byteverse/footer/Discord.svg";
 let byteverse = "/byteverse/footer/byteverse.svg";
 let hackslash = "/byteverse/footer/Hackslash.svg";
 let desco = "/byteverse/footer/Desco.svg";
-let gdsc = "/byteverse/footer/Gdsclogo.webp";
+let gdsc = "/byteverse/footer/gdsc-logo.webp";
 import emailjs from "@emailjs/browser";
 
 const FooterSection = () => {
@@ -213,7 +213,7 @@ const FooterSection = () => {
               <div className="flex flex-col items-center   ">
                 <div className="flex gap-2 ">
                   <Image width={30} height={30} src={desco} alt="" />
-                  <Image width={100} height={65} src={gdsc} alt="" />
+                  <Image width={30} height={30} src={gdsc} alt="" />
                 </div>
                 <div className="text-[12px] text-neutral-400 text-center">
                   Designed by
