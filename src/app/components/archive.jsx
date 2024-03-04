@@ -2,15 +2,21 @@
 import React, { useState, useEffect, useRef } from "react";
 import Images from "./archiveImage";
 import "./App.css";
-import useScrollTriggeredCountUp from './useScrollTriggeredCountUp.jsx';
+import useScrollTriggeredCountUp from "./useScrollTriggeredCountUp.jsx";
 import Image from "next/image";
 
 const CountUp = (props) => {
   const ref = useRef(null);
-  const count = useScrollTriggeredCountUp(ref,  props.number); 
+  const count = useScrollTriggeredCountUp(ref, props.number);
 
-  return <p ref={ref} className="text-6xl md:text-3xl lg:text-5xl text-[#D1A878] font-bold my-0">{count}+</p>
-  
+  return (
+    <p
+      ref={ref}
+      className="text-6xl md:text-3xl lg:text-5xl text-[#D1A878] font-bold my-0"
+    >
+      {count}+
+    </p>
+  );
 };
 
 const Archive = () => {
@@ -42,7 +48,7 @@ const Archive = () => {
           </p>
         </div>
         <div className="bg-[#541E1E66] sm:w-3/5 md:w-1/3 h-40 rounded-xl flex flex-col justify-center my-auto shadow-md items-center md:items-start shadow-[#ffe1683c] px-4 mt-3">
-        <CountUp number={1800} />
+          <CountUp number={1800} />
           <p className="text-2xl sm:mt-1 md:text-xl md:mt-3 lg:text-2xl font-semibold">
             Participants
           </p>
