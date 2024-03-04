@@ -15,6 +15,7 @@ let discord = "/byteverse/footer/Discord.svg";
 let byteverse = "/byteverse/footer/byteverse.svg";
 let hackslash = "/byteverse/footer/Hackslash.svg";
 let desco = "/byteverse/footer/Desco.svg";
+let gdsc = "/byteverse/footer/Gdsclogo.webp";
 import emailjs from "@emailjs/browser";
 
 const FooterSection = () => {
@@ -60,7 +61,7 @@ const FooterSection = () => {
   };
 
   return (
-    <div className="footer-grad">
+    <div className="footer-grad  ">
       <div
         id="contact"
         className="h-[140vh] font-[Inter] flex flex-col bg-cover bg-no-repeat  "
@@ -153,8 +154,14 @@ const FooterSection = () => {
           </div>
           <div className=" justify-self-center lg:self-end">
             <div className="flex gap-3 items-center mb-8  ">
-              <Image width={20} height={20}  src={cr} alt="" />
-              <Image width={120} height={120} src={byteverse} alt="" className="h-8 lg:h-auto" />
+              <Image width={20} height={20} src={cr} alt="" />
+              <Image
+                width={120}
+                height={120}
+                src={byteverse}
+                alt=""
+                className="h-8 lg:h-auto"
+              />
               <div className=" h-8 w-[2px]"></div>
               <div className="text-sm text-white ">NIT Patna 2024</div>
             </div>
@@ -162,7 +169,13 @@ const FooterSection = () => {
           <div className="flex  flex-col mt-5 lg:mt-0 items-center md:justify-end lg:items-end gap-6">
             <div className="flex flex-col gap-2 lg:mr-16    ">
               <div className="flex items-center gap-5 ">
-                <Image width={30} height={30}  src={discord} alt="" className="h-6" />
+                <Image
+                  width={30}
+                  height={30}
+                  src={discord}
+                  alt=""
+                  className="h-6"
+                />
                 <Link
                   href={"https://discord.gg/Es29vwFc"}
                   alt={"Discord Link"}
@@ -174,7 +187,13 @@ const FooterSection = () => {
                 </Link>
               </div>
               <div className="flex items-center gap-5">
-                <Image width={30} height={30} src={terms} alt="" className="h-6" />
+                <Image
+                  width={30}
+                  height={30}
+                  src={terms}
+                  alt=""
+                  className="h-6"
+                />
                 <div className="text-[10px] text-white ">
                   Terms and Conditions
                 </div>
@@ -191,9 +210,14 @@ const FooterSection = () => {
                   Hosted by
                 </div>
               </div>
-              <div className="flex flex-col items-center">
-                <Image width={30} height={30} src={desco} alt="" />
-                <div className="text-[12px] text-neutral-400">Designed by</div>
+              <div className="flex flex-col items-center   ">
+                <div className="flex gap-2 ">
+                  <Image width={30} height={30} src={desco} alt="" />
+                  <Image width={100} height={65} src={gdsc} alt="" />
+                </div>
+                <div className="text-[12px] text-neutral-400 text-center">
+                  Designed by
+                </div>
               </div>
             </div>
           </div>
