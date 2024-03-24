@@ -31,7 +31,7 @@ const Judges = () => {
           width={400}
           height={400}
           alt="sword"
-          src="/byteverse/emeritus-judges.svg"
+          src="/byteverse/judes.svg"
           className="w-5/6 lg:w-[60%]"
         />
       </div>
