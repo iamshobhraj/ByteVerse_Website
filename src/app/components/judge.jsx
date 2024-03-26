@@ -27,7 +27,13 @@ const Judges = () => {
           background: "linear-gradient(180deg, rgb(72,0,0) 70%, #4A0000 100%)",
         }}
       >
-        <Image width={400} height={400} alt="sword" src="/byteverse/emeritus-judges.svg" className="w-5/6 lg:w-[60%]" />
+        <Image
+          width={400}
+          height={400}
+          alt="sword"
+          src="/byteverse/Judges.svg"
+          className="w-5/6 lg:w-[60%]"
+        />
       </div>
       <div className="bg-[#4A0000] flex flex-col">
         <Carousel
