@@ -29,7 +29,7 @@
         {
             "company":"PWSkills",
             "url":"/sponsors/associateSponsors/pwskills.webp",
-            "link":"https://www.echo3d.co/",
+            "link":"https://pwskills.com/",
             "hCheck":false
         }
     ],
@@ -82,9 +82,9 @@
     ],
     "certficate-sponsors":[
         {
-            "company":"ECHO3D",
+            "company":"GIVE MY CERTIFICATE",
             "url":"/sponsors/subEventSponsors/gmc.png",
-            "link":"https://www.echo3d.co/",
+            "link":"https://givemycertificate.com/",
             "hCheck":true
         }
     ]
