@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "name": "Aditya S",
-    "role": "SDE 2",
+    "name": "Aditya Singh",
+    "role": "AppDev, Cloud Computing, Backend",
     "des": "Microsoft",
     "url": "/judges/Aditya S.webp",
     "linkedin": "https://www.linkedin.com/in/aditya-s-185863aa/",
@@ -12,7 +12,7 @@
   {
     "id": 2,
     "name": "Anish De",
-    "role": "SDE 2",
+    "role": "Web, AppDev",
     "des": "Google, ex Microsoft",
     "url": "/judges/Anish De.webp",
     "linkedin": "https://www.linkedin.com/in/anish-de-1b090a193/",
@@ -22,49 +22,30 @@
 
   {
     "id": 3,
-    "name": "Anurag Srivastava",
-    "role": "SDE",
-    "des": "Microsoft (ex NITP2019)",
-    "url": "/judges/Anurag Srivastava.webp",
-    "linkedin": "https://www.linkedin.com/in/anurag-srivastava-06297b130/",
-    "twitter": "",
-    "github": ""
-  },
-  {
-    "id": 4,
     "name": "Asmit Vimal",
-    "role": "SDE",
+    "role": "Web, AppDev",
     "des": "CRED",
     "url": "/judges/Asmit Vimal.webp",
     "linkedin": "https://www.linkedin.com/in/asmit-vimal/",
     "twitter": "",
-    "github": ""
+    "github": "https://github.com/ViAsmit"
   },
 
   {
-    "id": 5,
+    "id": 4,
     "name": "Mayuri Gupta",
-    "role": "SDE 2",
+    "role": "AI/ML, Web, AppDev, UI/UX",
     "des": "American Express",
     "url": "/judges/Mayuri Gupta.webp",
     "linkedin": "https://www.linkedin.com/in/mayuri2307/",
     "twitter": "",
-    "github": " "
+    "github": "https://github.com/mayuri2307"
   },
+
   {
-    "id": 6,
-    "name": "PARIMALA S",
-    "role": "SDE",
-    "des": "Apple ",
-    "url": "/judges/PARIMALA S.webp",
-    "linkedin": "https://www.linkedin.com/in/parimala-srinivasagopalan/",
-    "twitter": " ",
-    "github": " "
-  },
-  {
-    "id": 7,
+    "id": 5,
     "name": "Pranjal Tripathi",
-    "role": "SDE 2",
+    "role": "Web, AppDev",
     "des": "Flipkart",
     "url": "/judges/Pranjal Tripathi.webp",
     "linkedin": "https://www.linkedin.com/in/pranjal-tripathi/",
@@ -75,7 +56,7 @@
   {
     "id": 6,
     "name": "Ranjan Kumar",
-    "role": "SDE 3",
+    "role": "AI/ML, Web, AppDev, Cloud Computing",
     "des": "Amazon",
     "url": "/judges/Ranjan Kumar.webp",
     "linkedin": "https://www.linkedin.com/in/ranjankumar01?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
@@ -84,32 +65,32 @@
   },
 
   {
-    "id": 9,
-    "name": "Ribhu Mukherjee",
-    "role": "SDE",
-    "des": "Qualcomm",
-    "url": "/judges/Ribhu Mukherjee.webp",
-    "linkedin": "https://www.linkedin.com/in/ribhu-mukherjee?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
-    "twitter": "",
-    "github": " "
-  },
-  {
-    "id": 10,
+    "id": 7,
     "name": "Sabhya Grover",
-    "role": "SDE 2 ",
+    "role": "Web, Cloud Computing, UI/UX",
     "des": "VMware",
     "url": "/judges/Sabhya Grover.webp",
     "linkedin": "https://www.linkedin.com/in/sabhyagrover/",
     "twitter": "",
+    "github": "https://github.com/SabhyaGrover"
+  },
+  {
+    "id": 8,
+    "name": "Sonu Sourav",
+    "role": "AppDev ",
+    "des": "ShareChat",
+    "url": "/judges/Sonu Sourav.webp",
+    "linkedin": "https://www.linkedin.com/in/sonusourav/",
+    "twitter": "",
     "github": " "
   },
   {
-    "id": 11,
-    "name": "Sanket Singh",
-    "role": "SDE",
-    "des": "Microsoft/ Factulty @PW ",
-    "url": "/judges/Sanket Singh.webp",
-    "linkedin": "https://www.linkedin.com/in/singhsanket143/",
+    "id": 9,
+    "name": "Mohit Bhat",
+    "role": "Web, Blockchain ",
+    "des": "Singularity",
+    "url": "/judges/Mohit Bhat.webp",
+    "linkedin": "https://www.linkedin.com/in/mbcse/",
     "twitter": "",
     "github": " "
   }
